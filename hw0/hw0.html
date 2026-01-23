@@ -1,0 +1,318 @@
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Points <br/>Possible</th>
+<th style="text-align: center;">Due Date</th>
+<th style="text-align: center;">Time Commitment <br/>(estimated)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">Friday, February 6 @ midnight</td>
+<td style="text-align: center;"><em>up to</em> 8 hours</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>GRADING:</strong> Grading will be aligned with the
+completeness of the objectives.</p></li>
+<li><p><strong>INDEPENDENT WORK:</strong> Copying, cheating, plagiarism
+and academic dishonesty <em>are not tolerated</em> by University or
+course policy. Please see the syllabus for the full departmental and
+University statement on the academic code of honor.</p></li>
+</ul>
+<h2 id="objectives">OBJECTIVES</h2>
+<ul>
+<li><p>Familiarize yourself with the JupyterLab environment, Markdown
+and Python</p></li>
+<li><p>Familiarize yourself with Github and basic git</p></li>
+<li><p>Explore JupyterHub Linux terminal console integrating what you
+learned in the prior parts of this homework</p></li>
+<li><p>Learn more about and use string manipulation</p></li>
+</ul>
+<h2 id="what-to-turn-in">WHAT TO TURN IN</h2>
+<p>You are being encouraged to turn the assignment in using the provided
+Jupyter Notebook. To do so, make a directory in your Lab environment
+called <code>homework/hw0</code>. Put all of your files in that
+directory. Then zip or tar that directory, rename it with your name as
+the first part of the filename (e.g. <code>maull_hw0_files.zip</code>,
+<code>maull_hw0_files.tar.gz</code>), then download it to your local
+machine, then upload the <code>.zip</code> to Canvas.</p>
+<p>If you do not know how to do this, please ask, or visit one of the
+many tutorials out there on the basics of using zip in Linux.</p>
+<p>If you choose not to use the provided notebook, you will still need
+to turn in a <code>.ipynb</code> Jupyter Notebook and corresponding
+files according to the instructions in this homework.</p>
+<h2 id="assignment-tasks">ASSIGNMENT TASKS</h2>
+<h3
+id="familiarize-yourself-with-the-jupyterlab-environment-markdown-and-python">(0%)
+Familiarize yourself with the JupyterLab environment, Markdown and
+Python</h3>
+<p>As stated in the course announcement <a
+href="https://jupyter.org">Jupyter (https://jupyter.org)</a> is the core
+platform we will be using in this course and is a popular platform for
+data scientists around the world. We have a JupyterLab setup for this
+course so that we can operate in a cloud-hosted environment, free from
+some of the resource constraints of running Jupyter on your local
+machine (though you are free to set it up on your own and seek my advice
+if you desire).</p>
+<p>You have been given the information about the Jupyter environment we
+have setup for our course, and the underlying Python environment will be
+using is the <a href="https://anaconda.com">Anaconda
+(https://anaconda.com)</a> distribution. It is not necessary for this
+assignment, but you are free to look at the multitude of packages
+installed with Anaconda, though we will not use the majority of them
+explicitly.</p>
+<p>As you will soon find out, Notebooks are an incredibly effective way
+to mix code with narrative and you can create cells that are entirely
+code or entirely Markdown. Markdown (MD or <code>md</code>) is a highly
+readable text format that allows for easy documentation of text files,
+while allowing for HTML-based rendering of the text in a way that is
+style-independent.</p>
+<p>We will be using Markdown frequently in this course, and you will
+learn that there are many different “flavors” of Markdown. We will only
+be using the basic flavor, but you will benefit from exploring the
+“Github flavored” Markdown, though you will not be responsible for using
+it in this course – only the “basic” flavor. Please refer to the
+original course announcement about Markdown.</p>
+<p><strong>§ Task:</strong> <strong>THERE IS NOTHING TO TURN IN FOR THIS
+PART.</strong></p>
+<p>Play with and become familiar with the basic functions of the Lab
+environment given to you online in the course.</p>
+<p><strong>§ Task:</strong> <strong>THERE IS NOTHING TO TURN IN FOR THIS
+PART.</strong></p>
+<p>Please <em>create a markdown document</em> and read the documentation
+for basic Markdown <a
+href="https://www.markdownguide.org/basic-syntax">here</a>. Learn to use
+all of the following:</p>
+<ul>
+<li>headings (one level is fine),</li>
+<li>bullets,</li>
+<li>bold and italics</li>
+</ul>
+<p>Again, the content of your documentcan be whatever you like, just
+learn some of the basic functionality of Markdown.</p>
+<h3 id="familiarize-yourself-with-github-and-basic-git">(0%) Familiarize
+yourself with Github and basic git</h3>
+<p><a href="https://github.com">Github (https://github.com)</a> is the
+<em>de facto</em> platform for open source software in the world based
+on the very popular <a href="https://git-scm.org">git
+(https://git-scm.org)</a> version control system. Git has a
+sophisticated set of tools for version control based on the concept of
+local repositories for fast commits and remote repositories only when
+collaboration and remote synchronization is necessary. Github enhances
+git by providing tools and online hosting of public and private
+repositories to encourage and promote sharing and collaboration. Github
+hosts some of the world’s most widely used open source software.</p>
+<p><strong>If you are already familiar with git and Github, then this
+part will be very easy!</strong></p>
+<p><strong>§ Task:</strong> <strong>Create a public Github repo named
+<code>"hu-f25-data203"</code> and place a <code>README.md</code> file in
+it.</strong></p>
+<p>Create your first file called <code>README.md</code> at the top level
+of the repository.</p>
+<p>Please put your Github username in the file. Aside from that you can
+put whatever text you like in the file (If you like, use something like
+<a href="https://lipsum.com/">lorem ipsum</a> to generate random
+sentences to place in the file.). Please include the link to
+<strong>your</strong> Github repository that now includes the minimal
+<code>README.md</code>. You don’t have to have anything elaborate in
+that file or the repo.</p>
+<p><strong>§ Task:</strong> <strong>Fork the course
+repository.</strong></p>
+<p>Learn to use Github workflows and fork the class repo:</p>
+<ul>
+<li><a
+href="https://github.com/kmhuads/s26_data203">https://github.com/kmhuads/s26_data203</a></li>
+</ul>
+<h3
+id="explore-jupyterhub-linux-terminal-console-integrating-what-you-learned-in-the-prior-parts-of-this-homework">(0%)
+Explore JupyterHub Linux terminal console integrating what you learned
+in the prior parts of this homework</h3>
+<p>The Linux console in JupyterLab is a great way to perform
+command-line tasks and is an essential tool for basic scripting that is
+part of a data scientist’s toolkit. Open a terminal console in the lab
+environment and familiarize yourself with your files and basic
+commands.</p>
+<p><strong>§ Task:</strong> <strong>Understand basic Linux file
+operations</strong></p>
+<p>Basic file operations go a long way to understand the way Linux
+works. In this part, you will understand folders, files and making
+revisions to a file. These files will be visible within Jupyter, which
+makes moving from one platform to another seemless. We will create a
+folder, file, make edits.</p>
+<ul>
+<li>open a Jupyter console</li>
+<li>create a file called <code>README.md</code></li>
+<li>type <code>mkdir your_folder_name</code> to create a folder in
+filesystem <em>in the current folder where you are</em></li>
+<li>use <code>cd your_folder_name</code> to “change directory” and move
+into the folder you just created</li>
+<li>use <code>pwd</code> to “print working directory” to verify you are
+in the folder you created</li>
+<li>create a file by type <code>touch README.md</code> the
+<code>touch</code> command creates a file if it does not already exist,
+otherwise it will change the timestamp of that file when it is
+“touched”</li>
+<li>type <code>echo "Hello this is test text." &gt; README.md</code>.
+This will take the words you typed and “append them” into the file
+<code>README.md</code></li>
+<li>to see the contents of your file typing <code>cat README.md</code>
+or <code>more README.md</code> or <code>less README.md</code></li>
+</ul>
+<p><strong>§ Task:</strong> <strong>Learn to quickly obtain remote files
+in Linux</strong></p>
+<p>The commands <code>wget</code> and <code>curl</code> are useful for
+grabbing data and files from remote resources off the web. Using these
+tools from the command line streamline your workflows and are often
+faster than writing a program to do the same. These tools will also
+expand and strengthen you data science skills, added a few more tools to
+your toolkit is rarely a bad idea.</p>
+<ol type="1">
+<li>Read the documentation on each of these commands by typing
+<code>man wget</code> or <code>man curl</code> in the terminal.</li>
+</ol>
+<ul>
+<li><code>man</code> stands for <em>manual</em> and nearly all versions
+of Linux have such documentation pages for the majority of commands. If
+it fails, try the command with the <code>-h</code> or
+<code>--help</code> flag, such as <code>wget --help</code></li>
+</ul>
+<ol start="2" type="1">
+<li><p>Make sure your output goes to a file and study the documentation
+to the select the proper flags to do so.</p></li>
+<li><p>You can obtain nearly any file anywhere on the Internet with
+these commands. For example, the Library of Congress interview with jazz
+great Herbie Hancock from the mid-1980s: <a
+href="https://www.loc.gov/item/jsmith000096/">https://www.loc.gov/item/jsmith000096/</a></p>
+<ul>
+<li>click on this interview link</li>
+<li>choose the dropdown for the <strong>mp3</strong></li>
+<li>when the page opens up, there will be a player that starts the
+interview, copy the URL</li>
+<li>go to you Jupyter terminal and run the command
+<code>wget &lt;the_url_you_just_copied&gt;</code>, where you will paste
+the URL you just copied in the
+<code>&lt;the_url_you_just_copied&gt;</code></li>
+</ul></li>
+<li><p>Either on the Library of Congress site or somewhere else, play
+further with <code>wget</code> and <code>curl</code> to download some
+other files you might have of interest.</p></li>
+</ol>
+<h3 id="learn-more-about-and-use-string-manipulation">(100%) Learn more
+about and use string manipulation</h3>
+<p>We learned in lecture that strings are <em>sequences</em> in
+Python.</p>
+<p>We also learned that the sequence types have a number of basic
+operations like concatenation, length, etc.</p>
+<p>Strings have a lot of other operations on them that make them
+exceedingly useful for text processing. In fact, Python is exceptionally
+good at processing text, as you will see.</p>
+<p>First things first, please go to the documentation on Python strings,
+also known as <strong><code>str</code></strong> or “Text Sequence
+Type”:</p>
+<ul>
+<li><a
+href="https://docs.python.org/3/library/stdtypes.html#textseq">https://docs.python.org/3/library/stdtypes.html#textseq</a></li>
+</ul>
+<p>Study it and especially the String methods (see more here: <a
+href="https://docs.python.org/3/library/stdtypes.html#string-methods">https://docs.python.org/3/library/stdtypes.html#string-methods</a>).</p>
+<p>You will be using this short <strong>AI-generated writeup
+(qwen3-instruct/4B; note → there are <em>many</em> inaccuracies in the
+generated text)</strong> about the impeccable jazz singer (<a
+href="http://www.ellafitzgerald.com/">http://www.ellafitzgerald.com/</a>):</p>
+<blockquote>
+<p>Ella Fitzgerald is an American jazz singer widely regarded as one of
+the greatest and most influential vocalists in the history of jazz. Born
+on April 25, 1916, in Newport News, Virginia, she developed a
+distinctive voice and style that emphasized precision, phrasing, and
+emotional expression.</p>
+</blockquote>
+<blockquote>
+<p>Fitzgerald was known for her impeccable timing, dynamic range, and
+ability to improvise with grace and subtlety. She was a master of scat
+singing and had a profound influence on the development of jazz vocal
+styles. Her work with the legendary Louis Armstrong and her
+collaborations with musicians like Miles Davis, Duke Ellington, and Ray
+Charles helped shape the sound of jazz music.</p>
+</blockquote>
+<blockquote>
+<p>She was also a key figure in the “crossover” movement, bringing jazz
+to broader audiences through pop and film music. Fitzgerald recorded
+over 1,000 songs and was inducted into the Grammy Hall of Fame and the
+National Recording Registry.</p>
+</blockquote>
+<blockquote>
+<p>Ella Fitzgerald passed away on June 15, 1996, in New York City,
+leaving behind a legacy that continues to inspire generations of
+musicians and fans alike.</p>
+</blockquote>
+<p><strong>§ Task:</strong> <strong>Basic String functions.</strong></p>
+<p>Use the passage provided and answer the questions. <strong>Provide
+your answer in a Jupyter Notebook.</strong></p>
+<ol type="1">
+<li>Assign a variable called <code>passage</code> with the string
+provided into a multi-line string using <code>"""</code> which we talked
+about in lecture.<br />
+Make sure you preserve the spaces between paragraphs, which are
+<code>"\n\n"</code> (two newlines).</li>
+<li>Use <a
+href="https://docs.python.org/3/library/stdtypes.html#str.splitlines"><code>str.splitlines()</code></a>
+to determine how many paragraphs are in the string.<br />
+Recall, <code>splitlines()</code> returns a <em>sequence</em> (i.e. a
+list sequence), so counting the paragraphs is easier with
+<code>len()</code>.</li>
+<li>Use <a
+href="https://docs.python.org/3/library/stdtypes.html#str.lower"><code>lower()</code></a>
+to produce the lowercase version of the whole string.</li>
+</ol>
+<p><strong>§ Task:</strong> <strong>Advanced String
+functions.</strong></p>
+<p>Now that you have <code>passage</code> in a variable, there are a few
+more String operations we want to try to familiarize ourselves with.</p>
+<ol type="1">
+<li>Use <code>replace()</code> to replace all instances of the word
+<code>" her "</code> with <code>###</code>.<br />
+You would be advised to use <code>str.lower()</code> first so that all
+of your words are <em>normalized</em>. <strong>Note also the spaces
+around the word.</strong> So for example, the sentence
+<code>"The place where her glove was lost."</code> would be
+<code>"The place where ### hat was lost."</code>.</li>
+<li>How many <code>" and "</code> words are in the passage?</li>
+<li>How many times was the word <code>" jazz "</code> used in the
+passage? Use the lowercase-normalized count.</li>
+</ol>
+<p><strong>§ Task:</strong> <strong>Sequence iteration.</strong></p>
+<p>Now we will put looping into our work and ask more complex questions
+of the text.</p>
+<p>To produce a list sequence of all the words in <code>passage</code>
+then you will learn that <a
+href="https://docs.python.org/3/library/stdtypes.html#str.split"><code>str.split()</code></a>
+will be very valuable.</p>
+<ol type="1">
+<li>Study what <code>passage.split()</code> does and write a sentence
+fragment explaining what it does.</li>
+<li>Get the first paragraph (index 0), and return the number of words in
+the paragraph. <strong>NOTE:</strong> you can include punctuation as
+part of the word. You will make use of your solution in #2 and
+<code>split()</code>.</li>
+<li>Use a <code>for</code> loop with <code>split()</code> to print all
+words that end in <code>"ing"</code>. Provide the count of such words.
+<strong>Note</strong>: you do not have to remove punctuation, so if you
+end up with an item like <code>"walking,"</code> you can ignore it in
+your count.</li>
+<li>How many words end in <code>"er"</code>? Provide the list of those
+words. You will need to use a <code>for</code> loop.</li>
+<li>How many times does the word <code>"Ella"</code> appear in the
+passage?</li>
+</ol>
+<p><strong>§ Task:</strong> <strong>Find AI errors.</strong></p>
+<p>The text was AI-generated and so has errors in it. For 1 point, list
+at least one incorrect statement in the passage. You might use: <a
+href="http://www.ellafitzgerald.com/biography">http://www.ellafitzgerald.com/biography</a>
+Allmusic.com’s <a
+href="https://www.allmusic.com/artist/ella-fitzgerald-mn0000184502#biography">biography
+page</a> Do this in a Markdown cell in your notebook.</p>
