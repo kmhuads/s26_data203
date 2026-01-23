@@ -27,11 +27,12 @@ DATA203 Foundational Python (Prof. Maull) / Spring 2026 / HW0
 * Learn more about and use string manipulation
 
 ## WHAT TO TURN IN
-You are being encouraged to turn the assignment in using the provided
-Jupyter Notebook.  To do so, make a directory in your Lab environment called
-`homework/hw0`.   Put all of your files in that directory.  Then zip or tar that directory,
-rename it with your name as the first part of the filename (e.g. `maull_hw0_files.zip`, `maull_hw0_files.tar.gz`), then
-download it to your local machine, then upload the `.zip` to Canvas.
+You are being encouraged to turn the assignment in using the provided Jupyter
+Notebook.  To do so, make a directory in your Lab environment called
+`homework/hw0`.   Put all of your files in that directory.  Then zip or tar that
+directory, rename it with your name as the first part of the filename (e.g.
+`maull_hw0_files.zip`, `maull_hw0_files.tar.gz`), then download it to your local
+machine, then upload the `.zip` to Canvas.
 
 If you do not know how to do this, please ask, or visit one of the many tutorials out there
 on the basics of using zip in Linux.  
@@ -80,16 +81,16 @@ the Lab environment given to you online in the course.
 
 **&#167; Task:**  **THERE IS NOTHING TO TURN IN FOR THIS PART.** 
 
-Please _create a markdown document_ and
-read the documentation for basic Markdown [here](https://www.markdownguide.org/basic-syntax). 
-Learn to use all of the following:
+Please _create a markdown document_ and read the documentation for basic
+Markdown [here](https://www.markdownguide.org/basic-syntax). Learn to use all of
+the following:
 
 * headings (one level is fine),
 * bullets,
 * bold and italics
 
-Again, the content of your documentcan be whatever you like, just learn some
-of the basic functionality of Markdown.  
+Again, the content of your document can be whatever you like, just learn some of
+the basic functionality of Markdown.  
 
 
 
@@ -131,18 +132,17 @@ Learn to use Github workflows and fork the class repo:
 
 ### (0%) Explore JupyterHub Linux terminal console integrating what you learned in the prior parts of this homework 
 
-The Linux console in JupyterLab is a great way to perform command-line
-tasks and is an essential tool for basic scripting that is part of a
-data scientist's toolkit.  Open a terminal console in the lab
-environment and familiarize yourself with your files and basic commands.
+The Linux console in JupyterLab is a great way to perform command-line tasks and
+is an essential tool for basic scripting that is part of a data scientist's
+toolkit.  Open a terminal console in the lab environment and familiarize
+yourself with your files and basic commands.
 
 **&#167; Task:**  **Understand basic Linux file operations**
 
-   Basic file operations go a long way to understand the way Linux
-   works.  In this part, you will understand folders, files and making
-   revisions to a file.  These files will be visible within Jupyter,
-   which makes moving from one platform to another seemless.  We will
-   create a folder, file, make edits.             
+   Basic file operations go a long way to understand the way Linux works.  In
+   this part, you will understand folders, files and making revisions to a file.
+   These files will be visible within Jupyter, which makes moving from one
+   platform to another seemless.  We will create a folder, file, make edits.             
    
    - open a Jupyter console
    - create a file called `README.md` 
@@ -156,22 +156,22 @@ environment and familiarize yourself with your files and basic commands.
 
 **&#167; Task:**  **Learn to quickly obtain remote files in Linux** 
 
-The commands `wget` and `curl` are useful for grabbing data and files 
-from remote resources off the web.  Using these tools from the command
-line streamline your workflows and are often faster than writing a program
-to do the same.  These tools will also expand and strengthen you data 
-science skills, added a few more tools to your toolkit is rarely a bad
-idea.
+The commands `wget` and `curl` are useful for grabbing data and files from
+remote resources off the web.  Using these tools from the command line
+streamline your workflows and are often faster than writing a program to perform
+the same operation.  These tools will also expand and strengthen your data
+science skills, adding a few more tools to your toolkit is rarely a bad idea.
 
   1. Read the documentation on each of these commands by typing `man wget` or `man curl` in the terminal.
    - `man` stands for _manual_ and nearly all versions of Linux have 
      such documentation pages for the majority of commands.  If it fails, try the
      command with the `-h` or `--help` flag, such as `wget --help`
-  2. Make sure your  output goes to a file and study the documentation
-     to  the select the proper flags to do so.
-  3. You can obtain nearly any file anywhere on the Internet
-     with these commands.  For example, the Library of Congress
-     interview with jazz great Herbie Hancock from the mid-1980s: [https://www.loc.gov/item/jsmith000096/](https://www.loc.gov/item/jsmith000096/)
+  2. Make sure your  output goes to a file and study the documentation to  the
+     select the proper flags to do so.
+  3. You can obtain nearly any file anywhere on the Internet with these
+     commands.  For example, the Library of Congress "Off the Record" interview
+     with late, great Quincy Jones from 1988:
+     [https://www.loc.gov/item/jsmith000198/](https://www.loc.gov/item/jsmith000198/)
 
      - click on this interview link
      - choose the dropdown for the **mp3**
