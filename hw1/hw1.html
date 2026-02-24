@@ -1,0 +1,372 @@
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Points <br/>Possible</th>
+<th style="text-align: center;">Due Date</th>
+<th style="text-align: center;">Time Commitment <br/>(estimated)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">Saturday, March 7 @ midnight</td>
+<td style="text-align: center;"><em>up to</em> 15 hours</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>GRADING:</strong> Grading will be aligned with the
+completeness of the objectives.</p></li>
+<li><p><strong>INDEPENDENT WORK:</strong> Copying, cheating, plagiarism
+and academic dishonesty <em>are not tolerated</em> by University or
+course policy. Please see the syllabus for the full departmental and
+University statement on the academic code of honor.</p></li>
+</ul>
+<h2 id="objectives">OBJECTIVES</h2>
+<ul>
+<li><p>Explore JupyterHub Python <em>shell</em> commands inside
+cells</p></li>
+<li><p>List, Loops and Leaves: Get more practice using <code>for</code>
+loops and lists.</p></li>
+<li><p>Dictionary Deluge: Understand and use dictionaries for complex
+data.</p></li>
+<li><p>Practice writing functions.</p></li>
+</ul>
+<h2 id="what-to-turn-in">WHAT TO TURN IN</h2>
+<p>You are being encouraged to turn the assignment in using the provided
+Jupyter Notebook. To do so, make a directory in your Lab environment
+called <code>homework/hw1</code>. Put all of your files in that
+directory. Then zip or tar that directory, rename it with your name as
+the first part of the filename (e.g. <code>maull_hw1_files.zip</code>,
+<code>maull_hw1_files.tar.gz</code>), then download it to your local
+machine, then upload the <code>.zip</code> to Canvas.</p>
+<p>If you do not know how to do this, please ask, or visit one of the
+many tutorials out there on the basics of using zip in Linux.</p>
+<p>If you choose not to use the provided notebook, you will still need
+to turn in a <code>.ipynb</code> Jupyter Notebook and corresponding
+files according to the instructions in this homework.</p>
+<h2 id="assignment-tasks">ASSIGNMENT TASKS</h2>
+<h3 id="explore-jupyterhub-python-shell-commands-inside-cells">(0%)
+Explore JupyterHub Python <em>shell</em> commands inside cells</h3>
+<p>In the last time we learned to run the terminal console commands in
+JupyterLab, which is a great way to perform command-line tasks and is an
+essential tool for basic scripting that is part of a data scientist’s
+toolkit. Last time we used a terminal console in the lab environment
+this time we familiarize ourselves with Jupyter <em>shell</em> escape
+commands <strong>within</strong> a notebook.</p>
+<p>Study:</p>
+<ul>
+<li><a
+href="https://jakevdp.github.io/PythonDataScienceHandbook/01.05-ipython-and-shell-commands.html">Python
+Data Science Handbook: IPython and Shell Commands</a></li>
+</ul>
+<p>for full documentation on <em>shell</em> … they are
+<strong>very</strong> useful!</p>
+<p><strong>§ Task:</strong> <strong>Use Jupyter <em>shell</em> commands
+to perform the same commands as last time.</strong></p>
+<p>Basic file operations go a long way to understand the way Linux
+works. In this part, you will understand folders, files and making
+revisions to a file. These files will be visible within Jupyter, which
+makes moving from one platform to another seamless. We will create a
+folder, file and make edits.</p>
+<ul>
+<li>type <code>!mkdir your_folder_name</code> to create a folder in
+filesystem <em>in the current folder where you are</em></li>
+<li>create a file by type <code>touch README.md</code> the
+<code>touch</code> command creates a file if it does not already exist,
+otherwise it will change the timestamp of that file when it is
+“touched”</li>
+<li>edit the file in Jupyter with the text editor</li>
+<li>to see the contents of your file typing
+<code>!cat README.md</code></li>
+</ul>
+<p><strong>§ Task:</strong> <strong>Use <em>shell</em> command
+<code>wget</code> to quickly obtain remote files in Linux</strong></p>
+<p>As before get a remote file this time it will be from the <a
+href="https://archive.org">Internet Archive</a>:</p>
+<ul>
+<li>in a cell type
+<code>!wget https://ia801306.us.archive.org/15/items/fouraddressesats00howa/fouraddressesats00howa.pdf</code></li>
+<li>execute the cell</li>
+<li>verify the file was retrieved by opening it</li>
+</ul>
+<h3
+id="list-loops-and-leaves-get-more-practice-using-for-loops-and-lists.">(40%)
+List, Loops and Leaves: Get more practice using <code>for</code> loops
+and lists.</h3>
+<p>We learned in lecture that looping is a necessary tool for
+computation in Python and all coding. This part of the assignment will
+focus on loops and the string type.</p>
+<p>I have provided a starter notebook for you to use, which will greatly
+enhance you ability to complete the assignment. See that in the folder
+here. The name of the notebook is
+<code>hw1/hw1_starter.ipynb</code>:</p>
+<ul>
+<li><a
+href="https://github.com/kmhuads/s25_data203/tree/main/hw1/hw1_starter.ipynb">https://github.com/kmhuads/f25_data203/tree/main/hw1/hw1_starter.ipynb</a></li>
+</ul>
+<p>Look at this file and see what is in it – use it since in the
+notebook are some scaffolding code. You will need to study it and use it
+in the solutions being asked.</p>
+<p>You will use the starter notebook for your answer to write the Python
+code required to complete it.</p>
+<p><strong>§ Task:</strong> Write a code that converts all the sentences
+in the <code>sentences</code> list to lowercase and prints the cleaned
+list.**</p>
+<ul>
+<li>A <code>for</code> loop will be necessary and you will also need to
+revist <code>str.lower()</code>.</li>
+<li>You can simply use <code>print()</code> to display the lowercased,
+unpunctuated sentences.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<p>If</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> [<span class="st">&#39;Pumpkin patches are often filled with adorable pumpkins and Fall decorations!!!&#39;</span>]</span></code></pre></div>
+<p>then your code will output:</p>
+<pre class="text"><code>pumpkin patches are often filled with adorable pumpkins and fall decorations</code></pre>
+<p>There are many ways to solve this, so don’t overthink it!</p>
+<p><strong>Use the starter notebook and answer write the Python code
+required to complete it.</strong></p>
+<p><strong>§ Task:</strong> <strong>Write code that compares all
+sentences in the <code>sentences</code> list to one another and prints
+the list of common words or an empty list when there are no
+commonalities.</strong></p>
+<p>Starting with the Python code definining <code>sentences</code>:</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>  sentences <span class="op">=</span> [</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;The vibrant colors of the changing leaves in autumn were breathtakingly beautiful.&quot;</span>,</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;As the days get shorter, people start to cozy up with warm </span><span class="ch">\</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="st">       drinks and snuggled blankets indoors.&quot;</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;In the fall, apple cider donuts and pumpkin pie are a classic combination at many cafes.&quot;</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;The crisp air and cooling temperatures make fall the perfect time </span><span class="ch">\</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="st">       for outdoor activities like hiking and apple picking.&quot;</span>,</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;As the weather cools down, people start to wear layers of sweaters and scarves to stay warm.&quot;</span>,</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;The smell of wood smoke and fallen leaves fills the air during the fall season.&quot;</span>,</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;In many parts of the world, the fall equinox marks the official beginning of autumn.&quot;</span>,</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;The bright orange foliage of the sugar maples in the forest is a stunning sight to behold.&quot;</span>,</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>      <span class="st">&quot;As the nights get longer, people start to enjoy outdoor movies and </span><span class="ch">\</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="st">       bonfires with friends and family.&quot;</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>  ]</span></code></pre></div>
+<p>Your output MUST look like this:</p>
+<pre><code>S1: The vibrant colors of the changing leaves in autumn were breathtakingly beautiful.
+S2: The vibrant colors of the changing leaves in autumn were breathtakingly beautiful.
+
+  Have the following words in common:
+  -&gt; breathtakingly, in, vibrant, the, leaves, were, changing, autumn, colors, of, beautiful</code></pre>
+<ul>
+<li>As before you will need to use the lowercased version of the
+sentence (with <code>str.lower()</code>) or you will lose a point (and
+many of your answers will be wrong).</li>
+<li>Two <code>for</code> loops will be necessary – the outer loop will
+loop over each sentence as will the inner loop.</li>
+<li>You can simply use <code>print()</code> to display the list of words
+in common.</li>
+<li>You must use the provided function <code>common_words()</code>.</li>
+<li>Your output will contain 100 blocks (there are 10 sentences and each
+will be compared with all 10).</li>
+</ul>
+<p><strong>§ Task:</strong> <strong>Explain in your own words what the
+provided function <code>common_words()</code> does. Include the main
+data type used in the function and <em>why</em> that was an appropriate
+choice.</strong></p>
+<h3
+id="dictionary-deluge-understand-and-use-dictionaries-for-complex-data.">(40%)
+Dictionary Deluge: Understand and use dictionaries for complex
+data.</h3>
+<p>In this part we are going to work with dictionaries and loops again,
+as well as learn about two common file types that you will run across in
+Python (and other languages).</p>
+<p>The first file type is call JSON or “JavaScript Object Notation” and
+is one of the most ubiquitous file formats today. It allows you to store
+data of all kinds, but in our particular case, as we will find out, it
+is well suited for mapping data, key-value paired data or what we now
+know to be dictionaries in Python.</p>
+<p>You will want to pay close attention to this because being able to
+store and retrieve dictionaries and key-value paired data is greatly
+simplified when using JSON.</p>
+<p>Here is a fragment of a JSON file, which will commonly have the file
+extension <code>.json</code>:</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;appetizers&quot;</span><span class="fu">:</span> </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">{</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>        <span class="dt">&quot;Ackee and Saltfish Cakes&quot;</span><span class="fu">:</span> </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>        <span class="fu">{</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>            <span class="dt">&quot;description_en&quot;</span><span class="fu">:</span> </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>                <span class="st">&quot;Cakes crispy made with ackee fruit, salted cod fish, </span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="st">                onions, bell peppers, and spices. A popular appetizer in </span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="st">                Jamaica, these cakes are often served with a side of tangy </span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="st">                tartar sauce.&quot;</span><span class="fu">,</span> </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>            <span class="dt">&quot;description_es&quot;</span><span class="fu">:</span> </span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>                <span class="st">&quot;Cakes crujientes hechos con fruto de ackee, pescado salado, </span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="st">                cebolla, pimientos y especias. Un aperitivo popular en Jamaica, </span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="st">                estos pasteles se sirven com</span><span class="ch">\u00fa</span><span class="st">nmente con </span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="st">                una servilleta de salsa </span><span class="ch">\u00e1</span><span class="st">cida.&quot;</span><span class="fu">,</span> </span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>            <span class="dt">&quot;price&quot;</span><span class="fu">:</span> <span class="fl">12.99</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>        <span class="fu">}</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div>
+<p>Another file format you will run across is YAML, which stands for
+“Yet Another Markup Language”. I personally find YAML to be a great way
+to store data more easily that JSON at first, and then when a JSON file
+is necessary, convert it accordingly. YAML is a superset of JSON and is
+actually easier to read in it’s native file format (mostly because of
+the lack of curly braces and quotes), but nearly all computer systems
+can manipulate and display both formats beautifully, so it is really
+just a matter of personal preference until you run into a use case where
+the one might be more convenient over the other.</p>
+<p>You just need to remember that YAML can be easily converted to JSON
+and visa versa.</p>
+<p>YAML files commonly have the file extension <code>.yaml</code>. Here
+is an example based on the same fragment as before.</p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">appetizers</span><span class="kw">:</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">Ackee and Saltfish Cakes</span><span class="kw">:</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">description_en</span><span class="kw">:</span><span class="at"> Cakes crispy made with ackee fruit, salted cod fish, onions, bell</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="at">      peppers, and spices. A popular appetizer in Jamaica, these cakes are often served</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="at">      with a side of tangy tartar sauce.</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">description_es</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Cakes crujientes hechos con fruto de ackee, pescado salado, cebolla,\</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="st">      </span><span class="sc">\ </span><span class="st">pimientos y especias. Un aperitivo popular en Jamaica, estos pasteles se sirven\</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="st">      </span><span class="sc">\ </span><span class="st">com</span><span class="sc">\xFA</span><span class="st">nmente con una servilleta de salsa </span><span class="sc">\xE1</span><span class="st">cida.&quot;</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">price</span><span class="kw">:</span><span class="at"> </span><span class="fl">12.99</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="at">    </span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="at">    </span></span></code></pre></div>
+<p>In Python you can import each easily:</p>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> yaml</span></code></pre></div>
+<p>Official documentation is here:</p>
+<ul>
+<li><a href="https://pyyaml.org/wiki/PyYAMLDocumentation">yaml module
+documentation on pyyaml.org</a></li>
+<li><a href="https://docs.python.org/3/library/json.html">json module
+documentation on Python.org</a></li>
+</ul>
+<p><strong>§ Task:</strong> <strong>Load the menu from the
+<code>data/</code> folder into a dictionary using the YAML and JSON
+versions.</strong></p>
+<p><strong>§ Task:</strong> <strong>Use resulting dictionary structure
+from the prior task to calculate the cost of all entrees on the
+menu.</strong></p>
+<p>Here you will access the <code>entrees</code> key of the menu
+dictionary, then you will loop over all the <code>price</code> sub-keys
+and sum them up.<br />
+There are a number of straight-forward ways to do this.</p>
+<p><strong>§ Task:</strong> <strong>Use the provided order below to
+write the code to summarize the order. Your output will include (1) the
+total item count in the order, (2) the order total (sum of all items),
+and then the breakdown of the total by category (<code>appetizer</code>,
+<code>entree</code>, <code>desert</code>).</strong></p>
+<p>Here is the order:</p>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>order001 <span class="op">=</span> <span class="op">\</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;order&#39;</span>: {</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;appetizers&#39;</span>:</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>            {</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Callaloo Fritters&#39;</span>: <span class="dv">2</span>,</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Conch Fritters&#39;</span>: <span class="dv">2</span>,</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Jerk Chicken Wings&#39;</span>: <span class="dv">2</span>,</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Ackee and Saltfish Cakes&#39;</span>: <span class="dv">1</span>,</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>            },</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;deserts&#39;</span>:</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>            {</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Guava Duff&#39;</span>: <span class="dv">3</span>,</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Mango Sorbet&#39;</span>: <span class="dv">2</span>,</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Sweet Potato Pudding Cake&#39;</span>: <span class="dv">1</span>,</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Coconut Rice Pudding&#39;</span>: <span class="dv">1</span>,</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>            },</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;entrees&#39;</span>:</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>            {</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Curry Goat&#39;</span>: <span class="dv">1</span>,</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Brown Stew Fish with Rice and Peas&#39;</span>: <span class="dv">1</span>,</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Jerk Chicken&#39;</span>: <span class="dv">1</span></span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>            }</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Your output should look like (with the correct values):</p>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>Order Item Count: <span class="dv">1234</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>Order Total: $<span class="fl">123.45</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    Appetizers: $<span class="fl">456.78</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    Entrees: $<span class="fl">345.67</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    Deserts: $<span class="fl">890.12</span></span></code></pre></div>
+<h3 id="practice-writing-functions.">(20%) Practice writing
+functions.</h3>
+<p>We can all use a little more practice writing functions in Python, so
+here we go.</p>
+<p>In this part, we will input a list of numbers and determine, first,
+if there are any primes and second which of them (the primes) is
+largest.</p>
+<p>As a quick reminder, prime numbers are interesting for a wide array
+of reasons (some practical, some purely mathematical), but a <em>prime
+number</em> is a number which is only divisible but 1 and itself. Common
+small primes we know, love and interact with everyday are 3, 5, 7, 11,
+13, 17 and so on. It should be noted <em>finding</em> algorithms to
+search for large primes is hard work, and <em>not</em> something we will
+do with this assignment.</p>
+<p>For example, do you know which number in the list below is prime? If
+there are more than one prime, which is the largest of them?</p>
+<p><code>[834, 937, 1065, 1124, 1137, 1256, 1380, 1422, 1155, 1287, 1365]</code></p>
+<p>We will dig in and practice how to do this in Python.</p>
+<p><strong>§ Task:</strong> <strong>1.0 Write a function to the find the
+largest prime from a list of arbitrary size.</strong></p>
+<p>This should be very straightforward, but remember:</p>
+<ol type="1">
+<li><p>you will need to first check if a number is a candidate to be a
+prime number. Use the <code>is_prime()</code> function provided and this
+can be easily done. Also remember the following fact: <em>there are no
+even prime numbers</em>, or alternatively, if a number is divisible by
+2, it <em>cannot</em> be prime,</p></li>
+<li><p><em>keep track</em> of the largest prime that you have seen, thus
+a loop will be your best tool along with a variable, say
+<code>max_prime</code> to store the largest seen so far,</p></li>
+<li><p>make sure that if you see a new prime check it against your
+<code>max_prime</code>,</p></li>
+<li><p>don’t overthink it, you only need one loop and some conditional
+<code>if-else</code> logic to check the current number in the
+loop,</p></li>
+<li><p>your function should be named
+<code>find_largest_prime</code>.</p></li>
+</ol>
+<p>Here are some other bits of information you will find useful:</p>
+<p><em>function</em> <strong>NAME</strong>:
+<code>find_largest_prime</code></p>
+<p><em>function</em> <strong>INPUT</strong></p>
+<ul>
+<li>a Python list.</li>
+</ul>
+<p><em>function</em> <strong>OUTPUT</strong></p>
+<ul>
+<li><code>None</code> if there are no primes in the list,</li>
+<li>the largest prime number in the list.</li>
+</ul>
+<p><em>Code Example</em>:</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>  input_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  largest_prime(input_list)</span></code></pre></div>
+<p><em>Output</em>:</p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>  <span class="dv">5</span></span></code></pre></div>
+<p>You will need to use the <code>is_prime()</code> function as provided
+in the starter notebook:</p>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> is_prime(n):</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="im">import</span> math</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n <span class="op">&lt;=</span> <span class="dv">1</span>:</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>        is_prime <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>, <span class="bu">int</span>(math.sqrt(n)) <span class="op">+</span> <span class="dv">1</span>):</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> n <span class="op">%</span> i <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>                is_prime <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> is_prime</span></code></pre></div>
+<p>Consult the notebook to make sure you are able to test your function
+against what is there. You will have to look at the outputs in the
+comments to check your work.</p>
