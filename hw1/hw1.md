@@ -10,7 +10,7 @@ DATA203 Foundational Python (Prof. Maull) / Spring 2026 / HW1
 
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
-| 20 | Saturday, March 7 @ midnight | _up to_ 15 hours |
+| 20 | Saturday, March 14 @ midnight | _up to_ 15 hours |
 
 
 * **GRADING:** Grading will be aligned with the completeness of the objectives.
@@ -57,7 +57,7 @@ Study:
 
 for full documentation on _shell_ ... they are **very** useful!
 
-**&#167; Task:**  **Use Jupyter _shell_ commands to perform the same commands as last time.**
+**&#167; Task:**  **0.1 Use Jupyter _shell_ commands to perform the same commands as last time.**
 
    Basic file operations go a long way to understand
    the way Linux works.  In this part, you will understand
@@ -72,7 +72,7 @@ for full documentation on _shell_ ... they are **very** useful!
    - to see the contents of your file typing `!cat README.md` 
 
 
-**&#167; Task:**  **Use _shell_ command `wget` to quickly obtain remote files in Linux** 
+**&#167; Task:**  **0.2 Use _shell_ command `wget` to quickly obtain remote files in Linux** 
 
    As before get a remote file this time it will be from the [Internet Archive](https://archive.org):
 
@@ -103,7 +103,7 @@ being asked.
 
 You will use the starter notebook for your answer to write the Python code required to complete it.
 
-**&#167; Task:**  Write a code that converts all the sentences in the `sentences` list to lowercase and prints the cleaned list.**
+**&#167; Task:**  **1.1 Write a code that converts all the sentences in the `sentences` list to lowercase and prints the cleaned list.**
 
 * A `for` loop will be necessary and you will also need to revist `str.lower()`.
 * You can simply use `print()` to display the lowercased, unpunctuated sentences.
@@ -127,7 +127,7 @@ There are many ways to solve this, so don't overthink it!
 **Use the starter notebook and answer write the Python code required to complete it.**
 
 
-**&#167; Task:**  **Write code that compares all sentences in the `sentences` list to one another and prints the list of common words or an empty list when there are no commonalities.**
+**&#167; Task:**  **1.2 Write code that compares all sentences in the `sentences` list to one another and prints the list of common words or an empty list when there are no commonalities.**
 
 Starting with the Python code definining `sentences`:
 
@@ -165,7 +165,7 @@ S2: The vibrant colors of the changing leaves in autumn were breathtakingly beau
 * Your output will contain 100 blocks (there are 10 sentences and each will be compared with all 10).
 
 
-**&#167; Task:**  **Explain in your own words what the provided function `common_words()` does.  Include the main data type used in the function and _why_ that was an appropriate choice.**
+**&#167; Task:**  **1.3 Explain in your own words what the provided function `common_words()` does.  Include the main data type used in the function and _why_ that was an appropriate choice.**
 
 
 
@@ -249,17 +249,17 @@ Official documentation is here:
 * [yaml module documentation on pyyaml.org](https://pyyaml.org/wiki/PyYAMLDocumentation)
 * [json module documentation on Python.org](https://docs.python.org/3/library/json.html)
 
-**&#167; Task:**  **Load the menu from the `data/` folder into a dictionary using the YAML and JSON versions.**
+**&#167; Task:**  **2.1 Load the menu from the `data/` folder into a dictionary using the YAML and JSON versions.**
 
 
-**&#167; Task:**  **Use  resulting dictionary structure from the prior task to calculate the cost of all entrees on the menu.**
+**&#167; Task:**  **2.2 Use  resulting dictionary structure from the prior task to calculate the cost of all entrees on the menu.**
 
 Here you will access the `entrees` key of the menu dictionary, then you
 will loop over all the `price` sub-keys and sum them up.  
 There are a number of straight-forward ways to do this.
 
 
-**&#167; Task:**  **Use the provided order below to write the code to summarize the order.  Your output will include (1) the total item count in the order, (2) the order total (sum of all items), and then the breakdown of the total by category (`appetizer`, `entree`, `desert`).**
+**&#167; Task:**  **2.3 Use the provided order below to write the code to summarize the order.  Your output will include (1) the total item count in the order, (2) the order total (sum of all items), and then the breakdown of the total by category (`appetizer`, `entree`, `desert`).**
 
 Here is the order:
 
@@ -331,7 +331,7 @@ is prime?  If there are more than one prime, which is the largest of them?
 
 We will dig in and practice how to do this in Python.
 
-**&#167; Task:**  **1.0 Write a function to the find the largest prime from a list of arbitrary size.**
+**&#167; Task:**  **3.1 Write a function to the find the largest prime from a list of arbitrary size.**
 
 
 This should be very straightforward, but remember:
