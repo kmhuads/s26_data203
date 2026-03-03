@@ -93,7 +93,7 @@ which will greatly enhance you ability to complete
 the assignment.  See that in the folder here.  The 
 name of the notebook is `hw1/hw1_starter.ipynb`:
 
-* [https://github.com/kmhuads/f25_data203/tree/main/hw1/hw1_starter.ipynb](https://github.com/kmhuads/s25_data203/tree/main/hw1/hw1_starter.ipynb)
+* [https://github.com/kmhuads/f26_data203/tree/main/hw1/hw1_starter.ipynb](https://github.com/kmhuads/s26_data203/tree/main/hw1/hw1_starter.ipynb)
 
 Look at this file and see what is in it -- use it since
 in the notebook are some scaffolding code.  You will 
