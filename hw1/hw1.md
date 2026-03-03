@@ -331,7 +331,7 @@ is prime?  If there are more than one prime, which is the largest of them?
 
 We will dig in and practice how to do this in Python.
 
-**&#167; Task:**  **1.0 Write a function to the find the largest prime from a list of arbitrary size.**
+**&#167; Task:**  **3.0 Write a function to the find the largest prime from a list of arbitrary size.**
 
 
 This should be very straightforward, but remember:
