@@ -93,8 +93,7 @@ which will greatly enhance you ability to complete
 the assignment.  See that in the folder here.  The 
 name of the notebook is `hw1/hw1_starter.ipynb`:
 
-* [https://github.com/kmhuads/f25_data203/tree/main/hw1/hw1_starter.ipynb](https://github.com/kmhuads/s25_data203/tree/main/hw1/hw1_starter.ipynb)
-
+* [https://github.com/kmhuads/f26_data203/tree/main/hw1/hw1_starter.ipynb](https://github.com/kmhuads/s26_data203/blob/main/hw1/hw1_starter.ipynb)
 Look at this file and see what is in it -- use it since
 in the notebook are some scaffolding code.  You will 
 need to study it and use it in the solutions
@@ -331,7 +330,11 @@ is prime?  If there are more than one prime, which is the largest of them?
 
 We will dig in and practice how to do this in Python.
 
+<<<<<<< HEAD
+**&#167; Task:**  **3.0 Write a function to the find the largest prime from a list of arbitrary size.**
+=======
 **&#167; Task:**  **3.1 Write a function to the find the largest prime from a list of arbitrary size.**
+>>>>>>> ed4cc8f55a180a29454a2b2679682704fea23ac1
 
 
 This should be very straightforward, but remember:
