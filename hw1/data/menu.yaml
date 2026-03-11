@@ -1,0 +1,87 @@
+appetizers:
+  Ackee and Saltfish Cakes:
+    description_en: Cakes crispy made with ackee fruit, salted cod fish, onions, bell
+      peppers, and spices. A popular appetizer in Jamaica, these cakes are often served
+      with a side of tangy tartar sauce.
+    description_es: "Cakes crujientes hechos con fruto de ackee, pescado salado, cebolla,\
+      \ pimientos y especias. Un aperitivo popular en Jamaica, estos pasteles se sirven\
+      \ com\xFAnmente con una servilleta de salsa \xE1cida."
+    price: 12.99
+  Callaloo Fritters:
+    description_en: "Crispy fritters filled with saut\xE9ed callaloo (a type of leafy\
+      \ green), onions, garlic, and spices. Served with a side of jerk mayo for dipping."
+    description_es: Frituras crujientes rellenas de callaloo (una verdura de hojas),
+      cebolla, ajo y especias. Servidas con una servilleta de mayonesa de jerk para
+      untar.
+    price: 9.99
+  Conch Fritters:
+    description_en: Crispy fritters filled with tender conch meat, onions, bell peppers,
+      and spices. Served with a remoulade sauce for dipping.
+    description_es: Frituras crujientes rellenas de carne de concha suave, cebolla,
+      pimientos y especias. Servidas con una salsa de remoulade para untar.
+    price: 14.99
+  Jamaican Patties:
+    description_en: Flaky pastry pockets filled with spiced beef or chicken, onions,
+      and bell peppers. A popular street food in Jamaica, these patties are perfect
+      as an appetizer or snack.
+    description_es: Bolsas de pastel delgadas rellenas de carne o pollo condimentadas,
+      cebolla y pimientos. Una comida callejera popular en Jamaica, estas patatas
+      son ideales como aperitivo o snack.
+    price: 8.99
+  Jerk Chicken Wings:
+    description_en: Marinated in a spicy jerk seasoning, these chicken wings are grilled
+      to perfection and served with a side of tangy mango salsa.
+    description_es: "Marinadas en una salsa de jerk picante, estas patas de pollo\
+      \ se asan a punto y se sirven con una salsa de mango \xE1cida."
+    price: 18.99
+deserts:
+  Coconut Rice Pudding:
+    description_en: Creamy rice pudding flavored with coconut and spices, served warm
+      with a sprinkle of toasted coconut flakes.
+    description_es: "Pud\xEDn de arroz cremoso con sabor a coco y especias, servido\
+      \ caliente con una pizca de trozos tostados de coco."
+    price: 6.99
+  Guava Duff:
+    description_en: A traditional Jamaican dessert made with sweet guava filling and
+      flaky pastry crust, served warm with a dollop of whipped cream.
+    description_es: Un postre tradicional de Jamaica hecho con relleno de guava dulce
+      y una base de pastel ligeramente crujiente, servido caliente con una cucharada
+      de crema batida.
+    price: 7.99
+  Mango Sorbet:
+    description_en: A refreshing scoop of mango sorbet, perfect for hot days or as
+      a palate cleanser between courses.
+    description_es: "Una porci\xF3n refrescante de sorbete de mango, ideal para d\xED\
+      as calurosos o como limpiador de paladar entre platos."
+    price: 5.99
+  Sweet Potato Pudding Cake:
+    description_en: Moist sweet potato cake soaked in a spiced rum syrup, served with
+      a scoop of vanilla ice cream and caramel sauce.
+    description_es: "Pastel de calabaza h\xFAmedo inmerso en un jarabe de ron especiado,\
+      \ servido con una cucharada de helado de vainilla y salsa de caramelo."
+    price: 10.99
+entrees:
+  Brown Stew Fish with Rice and Peas:
+    description_en: Fresh snapper deep fried and cooked down in brown sauce served
+      with fried plantains, rice and peas.
+    description_es: "Pescado fresco frito y cocido en salsa marr\xF3n, servido con\
+      \ pl\xE1tanos fritos, arroz y verduras."
+    price: 19.99
+  Curry Goat:
+    description_en: Tender goat meat cooked in a flavorful curry sauce, served with
+      roti bread, Jamaican cabbage and fried dumplings.
+    description_es: Carne de cordero suave cocinada en una salsa de curry, servida
+      con pan roti, coliflor jamaicana y empanadillas fritas.
+    price: 14.99
+  Jerk Chicken:
+    description_en: Tender chicken breast marinated in a spicy jerk seasoning and
+      grilled to perfection, served with fried plantains and coconut rice.
+    description_es: "Pechuga de pollo suave marinada en una salsa de jerk picante\
+      \ y asada a punto, servida con pl\xE1tanos fritos y arroz de coco."
+    price: 16.99
+  Oxtail Stew:
+    description_en: Tender oxtail slow-cooked in a rich and flavorful stew, served
+      with rice and peas.
+    description_es: Cola de cerdo suave cocinada lentamente en una sopa rica y sabrosa,
+      servida con arroz y verduras.
+    price: 18.99
