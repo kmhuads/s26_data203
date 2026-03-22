@@ -1,0 +1,2252 @@
+[
+	{
+		"cust_id": 1,
+		"income": 166357.71,
+		"deductions": 24953.66,
+		"taxes_paid": 3327.15,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 2,
+		"income": 100300.86,
+		"deductions": 10030.09,
+		"taxes_paid": 17051.15,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 3,
+		"income": 306440.76,
+		"deductions": 85803.41,
+		"taxes_paid": 110318.67,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 4,
+		"income": 1066843.96,
+		"deductions": 160026.59,
+		"taxes_paid": 181363.47,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 5,
+		"income": 1012720.48,
+		"deductions": 141780.87,
+		"taxes_paid": 324070.55,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 6,
+		"income": 393964.53,
+		"deductions": 90611.84,
+		"taxes_paid": 137887.59,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 7,
+		"income": 1135898.76,
+		"deductions": 215820.76,
+		"taxes_paid": 22717.98,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 8,
+		"income": 952260.97,
+		"deductions": 190452.19,
+		"taxes_paid": 285678.29,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 9,
+		"income": 357694.76,
+		"deductions": 96577.59,
+		"taxes_paid": 135924.01,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 10,
+		"income": 20723.56,
+		"deductions": 3315.77,
+		"taxes_paid": 828.94,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 11,
+		"income": 1128120.26,
+		"deductions": 180499.24,
+		"taxes_paid": 451248.1,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 12,
+		"income": 617551.2,
+		"deductions": 166738.82,
+		"taxes_paid": 209967.41,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 13,
+		"income": 203340.17,
+		"deductions": 48801.64,
+		"taxes_paid": 22367.42,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 14,
+		"income": 1014992.33,
+		"deductions": 233448.24,
+		"taxes_paid": 284197.85,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 15,
+		"income": 486410.42,
+		"deductions": 141059.02,
+		"taxes_paid": 24320.52,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 16,
+		"income": 31435.07,
+		"deductions": 4400.91,
+		"taxes_paid": 10687.92,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 17,
+		"income": 1031764.88,
+		"deductions": 278576.52,
+		"taxes_paid": 257941.22,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 18,
+		"income": 465727.63,
+		"deductions": 74516.42,
+		"taxes_paid": 139718.29,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 19,
+		"income": 925843.54,
+		"deductions": 240719.32,
+		"taxes_paid": 0.0,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 20,
+		"income": 54792.56,
+		"deductions": 5479.26,
+		"taxes_paid": 547.93,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 21,
+		"income": 824313.99,
+		"deductions": 90674.54,
+		"taxes_paid": 82431.4,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 22,
+		"income": 389488.21,
+		"deductions": 50633.47,
+		"taxes_paid": 54528.35,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 23,
+		"income": 1000353.9,
+		"deductions": 210074.32,
+		"taxes_paid": 180063.7,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 24,
+		"income": 1014950.28,
+		"deductions": 304485.08,
+		"taxes_paid": 223289.06,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 25,
+		"income": 943876.13,
+		"deductions": 160458.94,
+		"taxes_paid": 235969.03,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 26,
+		"income": 100935.16,
+		"deductions": 28261.84,
+		"taxes_paid": 27252.49,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 27,
+		"income": 1026744.09,
+		"deductions": 266953.46,
+		"taxes_paid": 0.0,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 28,
+		"income": 604557.45,
+		"deductions": 145093.79,
+		"taxes_paid": 30227.87,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 29,
+		"income": 191578.9,
+		"deductions": 26821.05,
+		"taxes_paid": 42147.36,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 30,
+		"income": 221808.73,
+		"deductions": 55452.18,
+		"taxes_paid": 24398.96,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 31,
+		"income": 956958.53,
+		"deductions": 220100.46,
+		"taxes_paid": 153113.36,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 32,
+		"income": 423919.67,
+		"deductions": 50870.36,
+		"taxes_paid": 21195.98,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 33,
+		"income": 744347.1,
+		"deductions": 156312.89,
+		"taxes_paid": 119095.54,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 34,
+		"income": 385208.3,
+		"deductions": 107858.32,
+		"taxes_paid": 3852.08,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 35,
+		"income": 226499.8,
+		"deductions": 49829.96,
+		"taxes_paid": 67949.94,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 36,
+		"income": 230180.27,
+		"deductions": 66752.28,
+		"taxes_paid": 71355.88,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 37,
+		"income": 455524.85,
+		"deductions": 50107.73,
+		"taxes_paid": 145767.95,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 38,
+		"income": 760361.5,
+		"deductions": 76036.15,
+		"taxes_paid": 129261.46,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 39,
+		"income": 241235.33,
+		"deductions": 41010.01,
+		"taxes_paid": 41010.01,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 40,
+		"income": 454942.46,
+		"deductions": 90988.49,
+		"taxes_paid": 86439.07,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 41,
+		"income": 791973.43,
+		"deductions": 118796.01,
+		"taxes_paid": 285110.43,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 42,
+		"income": 88529.16,
+		"deductions": 15935.25,
+		"taxes_paid": 17705.83,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 43,
+		"income": 87327.91,
+		"deductions": 23578.54,
+		"taxes_paid": 22705.26,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 44,
+		"income": 846395.17,
+		"deductions": 211598.79,
+		"taxes_paid": 59247.66,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 45,
+		"income": 820675.09,
+		"deductions": 172341.77,
+		"taxes_paid": 246202.53,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 46,
+		"income": 923378.67,
+		"deductions": 277013.6,
+		"taxes_paid": 286247.39,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 47,
+		"income": 646028.94,
+		"deductions": 129205.79,
+		"taxes_paid": 90444.05,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 48,
+		"income": 668149.56,
+		"deductions": 93540.94,
+		"taxes_paid": 0.0,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 49,
+		"income": 589082.66,
+		"deductions": 123707.36,
+		"taxes_paid": 23563.31,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 50,
+		"income": 1175648.76,
+		"deductions": 141077.85,
+		"taxes_paid": 223373.26,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 51,
+		"income": 826920.68,
+		"deductions": 124038.1,
+		"taxes_paid": 74422.86,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 52,
+		"income": 960416.01,
+		"deductions": 268916.48,
+		"taxes_paid": 268916.48,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 53,
+		"income": 114464.6,
+		"deductions": 28616.15,
+		"taxes_paid": 40062.61,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 54,
+		"income": 1037872.11,
+		"deductions": 259468.03,
+		"taxes_paid": 290604.19,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 55,
+		"income": 39693.44,
+		"deductions": 11908.03,
+		"taxes_paid": 6350.95,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 56,
+		"income": 1067408.21,
+		"deductions": 192133.48,
+		"taxes_paid": 394941.04,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 57,
+		"income": 394416.83,
+		"deductions": 67050.86,
+		"taxes_paid": 31553.35,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 58,
+		"income": 33582.54,
+		"deductions": 8395.64,
+		"taxes_paid": 1679.13,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 59,
+		"income": 1154772.85,
+		"deductions": 254050.03,
+		"taxes_paid": 300240.94,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 60,
+		"income": 1007004.35,
+		"deductions": 281961.22,
+		"taxes_paid": 372591.61,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 61,
+		"income": 598337.32,
+		"deductions": 83767.22,
+		"taxes_paid": 71800.48,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 62,
+		"income": 903645.02,
+		"deductions": 171692.55,
+		"taxes_paid": 243984.16,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 63,
+		"income": 28601.92,
+		"deductions": 8294.56,
+		"taxes_paid": 6006.4,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 64,
+		"income": 335414.41,
+		"deductions": 73791.17,
+		"taxes_paid": 60374.59,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 65,
+		"income": 276088.93,
+		"deductions": 35891.56,
+		"taxes_paid": 38652.45,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 66,
+		"income": 709120.18,
+		"deductions": 120550.43,
+		"taxes_paid": 269465.67,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 67,
+		"income": 26048.47,
+		"deductions": 5209.69,
+		"taxes_paid": 8856.48,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 68,
+		"income": 387689.57,
+		"deductions": 38768.96,
+		"taxes_paid": 124060.66,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 69,
+		"income": 440830.14,
+		"deductions": 105799.23,
+		"taxes_paid": 171923.75,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 70,
+		"income": 323315.25,
+		"deductions": 48497.29,
+		"taxes_paid": 74362.51,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 71,
+		"income": 394050.65,
+		"deductions": 78810.13,
+		"taxes_paid": 126096.21,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 72,
+		"income": 270033.52,
+		"deductions": 35104.36,
+		"taxes_paid": 51306.37,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 73,
+		"income": 935221.96,
+		"deductions": 243157.71,
+		"taxes_paid": 271214.37,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 74,
+		"income": 1065664.9,
+		"deductions": 117223.14,
+		"taxes_paid": 159849.73,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 75,
+		"income": 1027771.44,
+		"deductions": 195276.57,
+		"taxes_paid": 215832.0,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 76,
+		"income": 477674.36,
+		"deductions": 71651.15,
+		"taxes_paid": 62097.67,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 77,
+		"income": 1004573.21,
+		"deductions": 251143.3,
+		"taxes_paid": 291326.23,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 78,
+		"income": 1108842.46,
+		"deductions": 177414.79,
+		"taxes_paid": 255033.77,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 79,
+		"income": 1167307.25,
+		"deductions": 315172.96,
+		"taxes_paid": 350192.17,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 80,
+		"income": 96173.09,
+		"deductions": 15387.69,
+		"taxes_paid": 27890.2,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 81,
+		"income": 228666.62,
+		"deductions": 68599.99,
+		"taxes_paid": 41159.99,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 82,
+		"income": 849853.73,
+		"deductions": 237959.04,
+		"taxes_paid": 59489.76,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 83,
+		"income": 1125994.3,
+		"deductions": 270238.63,
+		"taxes_paid": 450397.72,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 84,
+		"income": 375546.13,
+		"deductions": 82620.15,
+		"taxes_paid": 146462.99,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 85,
+		"income": 795662.4,
+		"deductions": 87522.86,
+		"taxes_paid": 23869.87,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 86,
+		"income": 685665.42,
+		"deductions": 137133.08,
+		"taxes_paid": 253696.21,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 87,
+		"income": 219520.54,
+		"deductions": 24147.26,
+		"taxes_paid": 50489.72,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 88,
+		"income": 482124.94,
+		"deductions": 106067.49,
+		"taxes_paid": 14463.75,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 89,
+		"income": 109996.52,
+		"deductions": 27499.13,
+		"taxes_paid": 10999.65,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 90,
+		"income": 932161.36,
+		"deductions": 149145.82,
+		"taxes_paid": 186432.27,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 91,
+		"income": 193414.42,
+		"deductions": 21275.59,
+		"taxes_paid": 40617.03,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 92,
+		"income": 571309.6,
+		"deductions": 131401.21,
+		"taxes_paid": 228523.84,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 93,
+		"income": 362215.34,
+		"deductions": 54332.3,
+		"taxes_paid": 108664.6,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 94,
+		"income": 510550.39,
+		"deductions": 86793.57,
+		"taxes_paid": 142954.11,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 95,
+		"income": 885118.07,
+		"deductions": 238981.88,
+		"taxes_paid": 274386.6,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 96,
+		"income": 530339.28,
+		"deductions": 116674.64,
+		"taxes_paid": 164405.18,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 97,
+		"income": 810532.29,
+		"deductions": 97263.87,
+		"taxes_paid": 64842.58,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 98,
+		"income": 481488.19,
+		"deductions": 101112.52,
+		"taxes_paid": 101112.52,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 99,
+		"income": 90825.6,
+		"deductions": 22706.4,
+		"taxes_paid": 1816.51,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 100,
+		"income": 125476.31,
+		"deductions": 31369.08,
+		"taxes_paid": 13802.39,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 101,
+		"income": 467055.45,
+		"deductions": 93411.09,
+		"taxes_paid": 65387.76,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 102,
+		"income": 1191179.39,
+		"deductions": 250147.67,
+		"taxes_paid": 250147.67,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 103,
+		"income": 646898.45,
+		"deductions": 64689.85,
+		"taxes_paid": 213476.49,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 104,
+		"income": 671626.95,
+		"deductions": 114176.58,
+		"taxes_paid": 141041.66,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 105,
+		"income": 413210.16,
+		"deductions": 86774.13,
+		"taxes_paid": 161151.96,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 106,
+		"income": 849511.8,
+		"deductions": 144417.01,
+		"taxes_paid": 118931.65,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 107,
+		"income": 566550.92,
+		"deductions": 141637.73,
+		"taxes_paid": 73651.62,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 108,
+		"income": 42060.39,
+		"deductions": 7150.27,
+		"taxes_paid": 7991.47,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 109,
+		"income": 904536.94,
+		"deductions": 208043.5,
+		"taxes_paid": 352769.41,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 110,
+		"income": 943199.35,
+		"deductions": 122615.92,
+		"taxes_paid": 216935.85,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 111,
+		"income": 1075638.32,
+		"deductions": 182858.51,
+		"taxes_paid": 215127.66,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 112,
+		"income": 475577.27,
+		"deductions": 123650.09,
+		"taxes_paid": 175963.59,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 113,
+		"income": 64735.52,
+		"deductions": 13594.46,
+		"taxes_paid": 1294.71,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 114,
+		"income": 742219.74,
+		"deductions": 89066.37,
+		"taxes_paid": 192977.13,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 115,
+		"income": 71264.19,
+		"deductions": 19241.33,
+		"taxes_paid": 7126.42,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 116,
+		"income": 1011138.7,
+		"deductions": 232561.9,
+		"taxes_paid": 121336.64,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 117,
+		"income": 429591.93,
+		"deductions": 68734.71,
+		"taxes_paid": 146061.26,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 118,
+		"income": 408364.61,
+		"deductions": 53087.4,
+		"taxes_paid": 73505.63,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 119,
+		"income": 701594.95,
+		"deductions": 140318.99,
+		"taxes_paid": 224510.38,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 120,
+		"income": 1123041.0,
+		"deductions": 190916.97,
+		"taxes_paid": 235838.61,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 121,
+		"income": 449533.61,
+		"deductions": 58439.37,
+		"taxes_paid": 139355.42,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 122,
+		"income": 1144568.35,
+		"deductions": 125902.52,
+		"taxes_paid": 80119.78,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 123,
+		"income": 1009362.15,
+		"deductions": 302808.65,
+		"taxes_paid": 302808.65,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 124,
+		"income": 307444.68,
+		"deductions": 79935.62,
+		"taxes_paid": 0.0,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 125,
+		"income": 831140.42,
+		"deductions": 124671.06,
+		"taxes_paid": 66491.23,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 126,
+		"income": 107655.08,
+		"deductions": 25837.22,
+		"taxes_paid": 1076.55,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 127,
+		"income": 162228.0,
+		"deductions": 17845.08,
+		"taxes_paid": 24334.2,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 128,
+		"income": 73914.8,
+		"deductions": 11087.22,
+		"taxes_paid": 5913.18,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 129,
+		"income": 952888.5,
+		"deductions": 142933.27,
+		"taxes_paid": 247751.01,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 130,
+		"income": 1102561.78,
+		"deductions": 209486.74,
+		"taxes_paid": 330768.53,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 131,
+		"income": 59001.26,
+		"deductions": 6490.14,
+		"taxes_paid": 23600.5,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 132,
+		"income": 391150.3,
+		"deductions": 113433.59,
+		"taxes_paid": 136902.61,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 133,
+		"income": 787473.58,
+		"deductions": 220492.6,
+		"taxes_paid": 86622.09,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 134,
+		"income": 159518.49,
+		"deductions": 17547.03,
+		"taxes_paid": 35094.07,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 135,
+		"income": 790260.19,
+		"deductions": 102733.82,
+		"taxes_paid": 165954.64,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 136,
+		"income": 271565.65,
+		"deductions": 35303.53,
+		"taxes_paid": 51597.47,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 137,
+		"income": 333020.12,
+		"deductions": 89915.43,
+		"taxes_paid": 36632.21,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 138,
+		"income": 328840.5,
+		"deductions": 55902.89,
+		"taxes_paid": 29595.65,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 139,
+		"income": 871033.7,
+		"deductions": 148075.73,
+		"taxes_paid": 322282.47,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 140,
+		"income": 121282.26,
+		"deductions": 29107.74,
+		"taxes_paid": 9702.58,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 141,
+		"income": 1037797.08,
+		"deductions": 300961.15,
+		"taxes_paid": 20755.94,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 142,
+		"income": 275309.23,
+		"deductions": 46802.57,
+		"taxes_paid": 44049.48,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 143,
+		"income": 430526.47,
+		"deductions": 55968.44,
+		"taxes_paid": 60273.71,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 144,
+		"income": 1138513.1,
+		"deductions": 182162.1,
+		"taxes_paid": 227702.62,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 145,
+		"income": 1068796.72,
+		"deductions": 245823.25,
+		"taxes_paid": 160319.51,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 146,
+		"income": 1090717.89,
+		"deductions": 294493.83,
+		"taxes_paid": 370844.08,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 147,
+		"income": 585121.42,
+		"deductions": 134577.93,
+		"taxes_paid": 5851.21,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 148,
+		"income": 909485.12,
+		"deductions": 218276.43,
+		"taxes_paid": 27284.55,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 149,
+		"income": 1199310.09,
+		"deductions": 215875.82,
+		"taxes_paid": 455737.83,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 150,
+		"income": 752440.8,
+		"deductions": 90292.9,
+		"taxes_paid": 218207.83,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 151,
+		"income": 765542.25,
+		"deductions": 145453.03,
+		"taxes_paid": 222007.25,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 152,
+		"income": 1092890.56,
+		"deductions": 207649.21,
+		"taxes_paid": 306009.36,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 153,
+		"income": 628024.3,
+		"deductions": 75362.92,
+		"taxes_paid": 238649.23,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 154,
+		"income": 533845.5,
+		"deductions": 117446.01,
+		"taxes_paid": 122784.47,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 155,
+		"income": 220996.72,
+		"deductions": 50829.25,
+		"taxes_paid": 66299.02,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 156,
+		"income": 370076.3,
+		"deductions": 51810.68,
+		"taxes_paid": 92519.07,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 157,
+		"income": 313188.55,
+		"deductions": 84560.91,
+		"taxes_paid": 97088.45,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 158,
+		"income": 814613.56,
+		"deductions": 114045.9,
+		"taxes_paid": 236237.93,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 159,
+		"income": 676703.33,
+		"deductions": 175942.87,
+		"taxes_paid": 148874.73,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 160,
+		"income": 1072812.28,
+		"deductions": 225290.58,
+		"taxes_paid": 193106.21,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 161,
+		"income": 1105080.12,
+		"deductions": 165762.02,
+		"taxes_paid": 419930.45,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 162,
+		"income": 1182597.61,
+		"deductions": 283823.43,
+		"taxes_paid": 413909.16,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 163,
+		"income": 597909.26,
+		"deductions": 89686.39,
+		"taxes_paid": 197310.06,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 164,
+		"income": 1025006.92,
+		"deductions": 102500.69,
+		"taxes_paid": 41000.28,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 165,
+		"income": 927776.44,
+		"deductions": 120610.94,
+		"taxes_paid": 306166.23,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 166,
+		"income": 433164.68,
+		"deductions": 43316.47,
+		"taxes_paid": 129949.4,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 167,
+		"income": 614615.68,
+		"deductions": 159800.08,
+		"taxes_paid": 245846.27,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 168,
+		"income": 1186100.3,
+		"deductions": 142332.04,
+		"taxes_paid": 213498.05,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 169,
+		"income": 27546.88,
+		"deductions": 6611.25,
+		"taxes_paid": 4132.03,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 170,
+		"income": 422490.21,
+		"deductions": 71823.34,
+		"taxes_paid": 156321.38,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 171,
+		"income": 877090.58,
+		"deductions": 210501.74,
+		"taxes_paid": 87709.06,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 172,
+		"income": 776516.07,
+		"deductions": 139772.89,
+		"taxes_paid": 46590.96,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 173,
+		"income": 945383.19,
+		"deductions": 113445.98,
+		"taxes_paid": 56722.99,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 174,
+		"income": 812753.27,
+		"deductions": 154423.12,
+		"taxes_paid": 105657.93,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 175,
+		"income": 867810.97,
+		"deductions": 260343.29,
+		"taxes_paid": 321090.06,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 176,
+		"income": 718264.06,
+		"deductions": 208296.58,
+		"taxes_paid": 28730.56,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 177,
+		"income": 352736.48,
+		"deductions": 52910.47,
+		"taxes_paid": 0.0,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 178,
+		"income": 915458.83,
+		"deductions": 238019.3,
+		"taxes_paid": 338719.77,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 179,
+		"income": 150330.61,
+		"deductions": 42092.57,
+		"taxes_paid": 31569.43,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 180,
+		"income": 1016238.85,
+		"deductions": 254059.71,
+		"taxes_paid": 193085.38,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 181,
+		"income": 504571.73,
+		"deductions": 85777.19,
+		"taxes_paid": 55502.89,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 182,
+		"income": 174326.83,
+		"deductions": 50554.78,
+		"taxes_paid": 55784.59,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 183,
+		"income": 766601.01,
+		"deductions": 153320.2,
+		"taxes_paid": 283642.37,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 184,
+		"income": 113869.58,
+		"deductions": 18219.13,
+		"taxes_paid": 35299.57,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 185,
+		"income": 553022.91,
+		"deductions": 77423.21,
+		"taxes_paid": 210148.71,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 186,
+		"income": 351085.79,
+		"deductions": 35108.58,
+		"taxes_paid": 129901.74,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 187,
+		"income": 849984.71,
+		"deductions": 93498.32,
+		"taxes_paid": 297494.65,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 188,
+		"income": 630481.46,
+		"deductions": 88267.4,
+		"taxes_paid": 63048.15,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 189,
+		"income": 635553.13,
+		"deductions": 63555.31,
+		"taxes_paid": 190665.94,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 190,
+		"income": 1063519.76,
+		"deductions": 138257.57,
+		"taxes_paid": 127622.37,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 191,
+		"income": 710936.42,
+		"deductions": 120859.19,
+		"taxes_paid": 28437.46,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 192,
+		"income": 1087674.49,
+		"deductions": 250165.13,
+		"taxes_paid": 217534.9,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 193,
+		"income": 477465.22,
+		"deductions": 109817.0,
+		"taxes_paid": 186211.44,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 194,
+		"income": 114180.97,
+		"deductions": 21694.38,
+		"taxes_paid": 20552.57,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 195,
+		"income": 668800.85,
+		"deductions": 160512.2,
+		"taxes_paid": 93632.12,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 196,
+		"income": 262439.69,
+		"deductions": 26243.97,
+		"taxes_paid": 13121.98,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 197,
+		"income": 73993.38,
+		"deductions": 11838.94,
+		"taxes_paid": 15538.61,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 198,
+		"income": 636827.23,
+		"deductions": 159206.81,
+		"taxes_paid": 127365.45,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 199,
+		"income": 465407.36,
+		"deductions": 93081.47,
+		"taxes_paid": 37232.59,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 200,
+		"income": 926413.04,
+		"deductions": 176018.48,
+		"taxes_paid": 240867.39,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 201,
+		"income": 524515.95,
+		"deductions": 104903.19,
+		"taxes_paid": 31470.96,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 202,
+		"income": 332243.41,
+		"deductions": 66448.68,
+		"taxes_paid": 56481.38,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 203,
+		"income": 1132005.08,
+		"deductions": 328281.47,
+		"taxes_paid": 418841.88,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 204,
+		"income": 481119.01,
+		"deductions": 115468.56,
+		"taxes_paid": 101034.99,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 205,
+		"income": 745125.85,
+		"deductions": 208635.24,
+		"taxes_paid": 171378.95,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 206,
+		"income": 464841.2,
+		"deductions": 74374.59,
+		"taxes_paid": 27890.47,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 207,
+		"income": 564378.4,
+		"deductions": 62081.62,
+		"taxes_paid": 33862.7,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 208,
+		"income": 232693.78,
+		"deductions": 55846.51,
+		"taxes_paid": 51192.63,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 209,
+		"income": 102815.49,
+		"deductions": 27760.18,
+		"taxes_paid": 2056.31,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 210,
+		"income": 756771.34,
+		"deductions": 98380.27,
+		"taxes_paid": 90812.56,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 211,
+		"income": 337426.82,
+		"deductions": 57362.56,
+		"taxes_paid": 57362.56,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 212,
+		"income": 388789.04,
+		"deductions": 66094.14,
+		"taxes_paid": 120524.6,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 213,
+		"income": 1093195.86,
+		"deductions": 163979.38,
+		"taxes_paid": 207707.21,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 214,
+		"income": 77232.1,
+		"deductions": 10812.49,
+		"taxes_paid": 13129.46,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 215,
+		"income": 359977.54,
+		"deductions": 97193.94,
+		"taxes_paid": 129591.91,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 216,
+		"income": 108627.71,
+		"deductions": 32588.31,
+		"taxes_paid": 11949.05,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 217,
+		"income": 655221.03,
+		"deductions": 91730.94,
+		"taxes_paid": 209670.73,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 218,
+		"income": 1171490.89,
+		"deductions": 328017.45,
+		"taxes_paid": 82004.36,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 219,
+		"income": 83765.07,
+		"deductions": 25129.52,
+		"taxes_paid": 3350.6,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 220,
+		"income": 711040.69,
+		"deductions": 71104.07,
+		"taxes_paid": 248864.24,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 221,
+		"income": 219088.09,
+		"deductions": 52581.14,
+		"taxes_paid": 32863.21,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 222,
+		"income": 197757.6,
+		"deductions": 51416.98,
+		"taxes_paid": 75147.89,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 223,
+		"income": 322058.51,
+		"deductions": 96617.55,
+		"taxes_paid": 38647.02,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 224,
+		"income": 624409.89,
+		"deductions": 74929.19,
+		"taxes_paid": 56196.89,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 225,
+		"income": 102850.12,
+		"deductions": 30855.04,
+		"taxes_paid": 38054.54,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 226,
+		"income": 633064.62,
+		"deductions": 63306.46,
+		"taxes_paid": 44314.52,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 227,
+		"income": 1053524.52,
+		"deductions": 231775.39,
+		"taxes_paid": 231775.39,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 228,
+		"income": 149967.59,
+		"deductions": 14996.76,
+		"taxes_paid": 25494.49,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 229,
+		"income": 60856.35,
+		"deductions": 10954.14,
+		"taxes_paid": 1825.69,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 230,
+		"income": 503240.11,
+		"deductions": 105680.42,
+		"taxes_paid": 191231.24,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 231,
+		"income": 67765.17,
+		"deductions": 7454.17,
+		"taxes_paid": 27106.07,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 232,
+		"income": 253627.07,
+		"deductions": 73551.85,
+		"taxes_paid": 81160.66,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 233,
+		"income": 704416.29,
+		"deductions": 140883.26,
+		"taxes_paid": 98618.28,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 234,
+		"income": 90156.26,
+		"deductions": 11720.31,
+		"taxes_paid": 23440.63,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 235,
+		"income": 372157.74,
+		"deductions": 40937.35,
+		"taxes_paid": 130255.21,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 236,
+		"income": 270952.79,
+		"deductions": 46061.97,
+		"taxes_paid": 75866.78,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 237,
+		"income": 702134.89,
+		"deductions": 161491.02,
+		"taxes_paid": 217661.82,
+		"exemptions": [
+			"C"
+		]
+	},
+	{
+		"cust_id": 238,
+		"income": 10182.27,
+		"deductions": 2545.57,
+		"taxes_paid": 1018.23,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 239,
+		"income": 672071.81,
+		"deductions": 80648.62,
+		"taxes_paid": 33603.59,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 240,
+		"income": 371605.02,
+		"deductions": 52024.7,
+		"taxes_paid": 96617.31,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 241,
+		"income": 315724.17,
+		"deductions": 41044.14,
+		"taxes_paid": 12628.97,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 242,
+		"income": 21828.46,
+		"deductions": 5457.11,
+		"taxes_paid": 6111.97,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 243,
+		"income": 528036.33,
+		"deductions": 100326.9,
+		"taxes_paid": 100326.9,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 244,
+		"income": 1087100.02,
+		"deductions": 108710.0,
+		"taxes_paid": 326130.01,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 245,
+		"income": 965736.36,
+		"deductions": 183489.91,
+		"taxes_paid": 260748.82,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 246,
+		"income": 739720.19,
+		"deductions": 221916.06,
+		"taxes_paid": 133149.63,
+		"exemptions": [
+			""
+		]
+	},
+	{
+		"cust_id": 247,
+		"income": 238855.79,
+		"deductions": 38216.93,
+		"taxes_paid": 14331.35,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 248,
+		"income": 46557.33,
+		"deductions": 13967.2,
+		"taxes_paid": 5586.88,
+		"exemptions": [
+			"A"
+		]
+	},
+	{
+		"cust_id": 249,
+		"income": 64644.89,
+		"deductions": 10989.63,
+		"taxes_paid": 9050.28,
+		"exemptions": [
+			"B"
+		]
+	},
+	{
+		"cust_id": 250,
+		"income": 1080238.41,
+		"deductions": 248454.83,
+		"taxes_paid": 64814.3,
+		"exemptions": [
+			"A"
+		]
+	}
+]
