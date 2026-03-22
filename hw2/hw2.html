@@ -1,0 +1,457 @@
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Points <br/>Possible</th>
+<th style="text-align: center;">Due Date</th>
+<th style="text-align: center;">Time Commitment <br/>(estimated)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">Friday, April 3 @ midnight</td>
+<td style="text-align: center;"><em>up to</em> 15 hours</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>GRADING:</strong> Grading will be aligned with the
+completeness of the objectives.</p></li>
+<li><p><strong>INDEPENDENT WORK:</strong> Copying, cheating, plagiarism
+and academic dishonesty <em>are not tolerated</em> by University or
+course policy. Please see the syllabus for the full departmental and
+University statement on the academic code of honor.</p></li>
+</ul>
+<h2 id="objectives">OBJECTIVES</h2>
+<ul>
+<li><p>Practice writing functions and loading data from files.</p></li>
+<li><p>More practice writing functions, explaining what they do and
+writing DocString documentation for a function.</p></li>
+<li><p>Load a JSON data file and write functions to manipulate
+data.</p></li>
+<li><p>BONUS: Do more advanced things with your prior functions and data
+outputs.</p></li>
+</ul>
+<h2 id="what-to-turn-in">WHAT TO TURN IN</h2>
+<p>You will enjoy the highest benefits of the starter notebook if you
+clone the HW Github repository from your Jupyter Hub terminal with the
+command:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>  <span class="fu">git</span> pull https://github.com/kmhuads/s26_data203.git</span></code></pre></div>
+<p>This will ensure you have the most updated files and starter
+notebook.</p>
+<p>Once you have cloned the repository, you can edit the starter
+notebook with your solution code.</p>
+<p>When you are done with your work, it will be best to zip your
+<code>hw2</code> folder and all sub-folders with the terminal command
+(one level outside your notebook folder):</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>  <span class="fu">zip</span> <span class="at">-r</span> data203_hw2_maull.zip ./hw2</span></code></pre></div>
+<p>This will produce the file with all necessary supporting files
+(notebooks, data output, etc.) then download it from the Jupyter Hub to
+your local machine, then upload the <code>.zip</code> to Teams.</p>
+<p>If are confused on how to do this, please ask, or visit one of the
+many tutorials on the basics of using zip in Linux.</p>
+<p>If you choose not to use the provided notebook, you will still need
+to turn in a <code>.ipynb</code> Jupyter Notebook and corresponding
+files according to the instructions in this homework.</p>
+<h2 id="assignment-tasks">ASSIGNMENT TASKS</h2>
+<h3 id="practice-writing-functions-and-loading-data-from-files.">(25%)
+Practice writing functions and loading data from files.</h3>
+<p>We can all use a little more practice writing functions in Python, so
+here we go.</p>
+<p>In the <code>data/</code> folder, you will see two files
+<code>data/1_firstnames.txt</code> and
+<code>data/1_lastnames.txt</code>.</p>
+<p>These files have a thousand names each, you will use those files to
+perform the following tasks.</p>
+<p><strong>§ Task:</strong> <strong>1.0 Write a function to load each
+file into a dictionary based on name length.</strong></p>
+<p>This should be very straightforward, but you will need to have the
+following:</p>
+<ol type="1">
+<li><p>In the starter notebook, you will see a dictionary called
+<code>names</code>. You will also notice that there are two keys in it
+already: <code>firstnames</code> and <code>lastnames</code>.</p></li>
+<li><p>You will need to load each file of 1000 names and put them into
+the appropriate keys (first names will go into
+<code>names['firstnames']</code> last names will go into
+<code>names['lastnames'])</code>.</p></li>
+<li><p><em>However</em> there is a twist. You must put the names into a
+list using keys based on length. That is to say, each of
+<code>names['firstnames']</code> and <code>names['lastnames']</code>
+will have numeric keys themselves indicating the <em>length</em> of the
+name. The <em>value</em> of the <em>key</em> will be a list containing
+the list of names of that length.</p></li>
+</ol>
+<p>For example, if you find a name “Alexa”, which is 5 letters in
+length, you will append it to the list of the key <code>5</code> in
+<code>names['firstnames']</code>. The dictionary with key <code>5</code>
+will have the value <code>['Alexa']</code> if <code>Alexa</code> is the
+first 5 letter name found. When another 5 letter name is found, say
+<code>Daryl</code> the key <code>5</code> will contain the list
+<code>['Alexa', 'Daryl']</code>.</p>
+<p>Concretely, the <code>names</code> dictionary might look something
+like this:</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&#39;firstnames&#39;</span>:</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>      <span class="dv">3</span>:  [<span class="st">&#39;Tim&#39;</span>, <span class="st">&#39;Tom&#39;</span>],</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>      <span class="dv">4</span>:  [<span class="st">&#39;Greg&#39;</span>, <span class="st">&#39;Fred&#39;</span>],</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>      <span class="dv">5</span>:  [<span class="st">&#39;Alexa&#39;</span>, <span class="st">&#39;Daryl&#39;</span>]</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>      ...</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">&#39;lastnames&#39;</span>:</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>      <span class="dv">5</span>:  [<span class="st">&#39;Smith&#39;</span>, <span class="st">&#39;Herle&#39;</span>]</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>      ...  </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<ol start="4" type="1">
+<li>You are <em>required</em> to write the function
+<code>make_names_dict(f_first, f_last)</code> which
+<strong>returns</strong> the dictionary of names based on data in the
+files <code>f_first</code> and <code>f_last</code>.</li>
+</ol>
+<p>Here are some other bits of information you will find useful:</p>
+<p><em>function</em> <strong>NAME</strong>:
+<code>make_names_dict(f_first, f_last)</code></p>
+<p><em>function</em> <strong>INPUT</strong></p>
+<ul>
+<li><em>f_first</em>: a string filename with firstnames</li>
+<li><em>f_last</em>: a string filename with lastnames</li>
+</ul>
+<p><em>function</em> <strong>OUTPUT</strong></p>
+<ul>
+<li>the dictionary object of names in each file with keys
+<code>"firstnames"</code> and <code>"lastnames"</code></li>
+<li>the keys <code>"firstnames"</code> and <code>"lastnames"</code> keys
+will have keys themselves which are numbers indicating the length of the
+name</li>
+<li>each of the numbered keys will have a list of the names of that
+length</li>
+</ul>
+<p><em>Code Example</em>:</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>make_names_dict(<span class="st">&quot;file001.txt&quot;</span>, <span class="st">&quot;file002.txt&quot;</span>)</span></code></pre></div>
+<p><em>Output</em>:</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&#39;firstnames&#39;</span>:</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>      <span class="dv">3</span>:  [<span class="st">&#39;Tim&#39;</span>, <span class="st">&#39;Tom&#39;</span>],</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>      <span class="dv">4</span>:  [<span class="st">&#39;Greg&#39;</span>, <span class="st">&#39;Fred&#39;</span>],</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>      <span class="dv">5</span>:  [<span class="st">&#39;Alexa&#39;</span>, <span class="st">&#39;Daryl&#39;</span>]</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>      ...</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="st">&#39;lastnames&#39;</span>:</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>      <span class="dv">5</span>:  [<span class="st">&#39;Smith&#39;</span>, <span class="st">&#39;Herle&#39;</span>]</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>      ...  </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Consult the starter notebook for additional hints.</p>
+<p><strong>§ Task:</strong> <strong>1.1 Use the <code>json</code> module
+to dump the dictionary of names from the first part into a file called
+<code>"data/names_dict.json"</code>.</strong></p>
+<p>Study the <a
+href="https://docs.python.org/3/library/json.html"><code>json</code>
+module</a> and learn to use the function <a
+href="https://docs.python.org/3/library/json.html#basic-usage"><code>dump()</code></a>.</p>
+<p><strong>§ Task:</strong> <strong>1.3 Write a function
+<code>name_gen()</code> which takes three parameters,
+<code>names</code>, <code>first_len</code> and <code>last_len</code> for
+length of firstname and lastname, respectively.</strong></p>
+<p>The function will use the <code>names</code> parameter as the source
+of the names using the <code>make_names_dict()</code> function from the
+first part.</p>
+<p><em>function</em> <strong>NAME</strong>:
+<code>name_gen(names, first_len, last_len)</code></p>
+<p><em>function</em> <strong>INPUT</strong></p>
+<ul>
+<li><em>names</em> : dictionary of first and last names</li>
+<li><em>first_len</em>: length of firstname</li>
+<li><em>last_len</em>: length of lastname</li>
+</ul>
+<p><em>function</em> <strong>OUTPUT</strong></p>
+<ul>
+<li>a string representing the name of length given by the
+<em>first_len</em> and <em>last_len</em> parameters.</li>
+</ul>
+<p><em>Code Example</em>:</p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>name_gen(names, <span class="dv">5</span>, <span class="dv">7</span>)</span></code></pre></div>
+<p><em>Output</em>:</p>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>Grace Simpson</span></code></pre></div>
+<h3
+id="more-practice-writing-functions-explaining-what-they-do-and-writing-docstring-documentation-for-a-function.">(25%)
+More practice writing functions, explaining what they do and writing
+DocString documentation for a function.</h3>
+<p>We learned in lecture that documentation for Python built-ins can be
+accessed with <a
+href="https://docs.python.org/3/library/functions.html#help"><code>help()</code></a>.
+We also learned that this same tool can be used on modules and packages
+that we import.</p>
+<p>But <em>how</em> did this documentation get created?</p>
+<p>To answer that question you will need to study Python DocStrings
+here:</p>
+<ul>
+<li><a
+href="https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings">Python
+DocStrings coding standards by Google</a></li>
+</ul>
+<p>In the notebook are some scaffolding code. You will need to study it
+and use it in the solutions being asked.</p>
+<p><strong>§ Task:</strong> <strong>2.0 Practice explaining
+code.</strong></p>
+<p>Use the code in the first cell of the provided notebook and answer
+the question below:</p>
+<ol type="1">
+<li><p>Explain in your own words what function
+<code>mystery_function</code> in the cell does.</p>
+<p>Your explanation should include the description of the inputs, and
+you will need to review the Python <a
+href="https://docs.python.org/3/library/random.html"><code>random</code></a>
+libraries and specifically <a
+href="https://docs.python.org/3/library/random.html#random.randint"><code>randint()</code></a>
+for details of the function.</p></li>
+<li><p>Write DocStrings documentation for the function. Use the style
+provided by the Google coding standards link already provided.</p></li>
+</ol>
+<p><strong>§ Task:</strong> <strong>2.1 Write a function which uses the
+output of <code>mystery_function()</code>.</strong></p>
+<p>We are now going to use the output of the mystery function as a
+<em>model</em>, which is typical of computation in general – we are able
+to use the <em>models</em> we make in the machine as an
+<em>approximate</em> representation of reality, which is what a model
+actually is! We must, however, realize that some models are
+<em>better</em> approximations than others and we are always on the hunt
+for the <em>best</em> models we can develop.</p>
+<p>In our case, the mystery function will model a concert hall.</p>
+<p>Each item in the return object of the function represents a physical
+row in the concert hall. So, for example, the <em>0th</em> object (a
+list in our case) is the first row of the hall (closest to the stage),
+the <em>1st</em> object (the next list) represents the next row and so
+on.</p>
+<p>Next, each item in the object (list item) represents a seat. If there
+is a <code>1</code> in an item, then that seat is occupied, if there is
+a <code>0</code> then it is not occupied.</p>
+<p>You will write a function, which will count the number of attendees
+at a concert, given by the given test invocations of
+<code>mystery_function</code> in the starter notebook.</p>
+<p>The name of the function will be <code>attendance_count()</code> and
+is specified below:</p>
+<p><em>function</em> <strong>NAME</strong>:
+<code>attendance_count</code></p>
+<p><em>function</em> <strong>INPUT</strong>:</p>
+<ul>
+<li><code>m</code>: model given by <code>mystery_function</code></li>
+</ul>
+<p><em>function</em> <strong>OUTPUT</strong>:</p>
+<ul>
+<li>a count of the <code>1</code> values in the model <code>m</code>,
+which is a count of the attendance for that concert</li>
+<li>the return value will be a single integer</li>
+</ul>
+<p><em>Code Example</em>:</p>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>  m <span class="op">=</span> mystery_function(<span class="dv">100</span>, <span class="dv">100</span>)  <span class="co"># 100 rows, 100 seats per row</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  attendance_count(m) <span class="co"># return the number of 1s in m</span></span></code></pre></div>
+<p><em>Example Output</em>:</p>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="dv">120</span></span></code></pre></div>
+<p>Don’t overthink this – your solution will be a very simple counter,
+and there are even some shortcuts, which you can use (HINT: explore the
+built-in <a
+href="https://docs.python.org/3/library/functions.html#sum"><code>sum()</code></a>).
+There is even an elegant <em>one line solution</em> using
+<code>sum()</code> and <a
+href="https://docs.python.org/3.14/library/functions.html#map"><code>map()</code></a>
+together.</p>
+<h3
+id="load-a-json-data-file-and-write-functions-to-manipulate-data.">(50%)
+Load a JSON data file and write functions to manipulate data.</h3>
+<p>We talked about file I/O in lecture and now that we have an idea
+about how to go from Python dictionaries to JSON we are now going to put
+all of theses things together.</p>
+<p>Apropos for the season, we are going to pretend we are tax
+accountants, and we have a large number of clients to get to the finish
+line.</p>
+<p>Spefically, we would like to take the remaining 250 clients and put
+them into priority groups – group “P1” we will call is the group of
+clients which will need to give high priority attention to. “P2” is
+intermediate priority and “P3” the low priority group.</p>
+<p>We will decode which accounts belong to which groups as part of this
+part of the assignment.</p>
+<p>You will need to look at the client JSON file at:</p>
+<ul>
+<li><a href="data/3_tax_clients.json">data/3_tax_clients.json</a></li>
+</ul>
+<p>Continue to study the starter notebook and follow the questions
+below.</p>
+<p><strong>§ Task:</strong> <strong>3.1 Write a function
+<code>compute_taxes</code> which returns a tuple specified
+below.</strong></p>
+<p><em>function</em> <strong>NAME</strong>:
+<code>compute_taxes</code></p>
+<p><em>function</em> <strong>INPUT</strong>:</p>
+<ul>
+<li><em>i</em> : the income</li>
+<li><em>d</em> : the deductions</li>
+<li><em>tp</em> : the taxes paid</li>
+</ul>
+<p><em>function</em> <strong>OUTPUT</strong>:</p>
+<ul>
+<li>a tuple containing the <em>taxable income</em>, <em>estimated
+taxes</em> and the <em>amount of taxes owed</em> (which is the
+difference between estimated taxes and taxes paid, <em>tp</em>)</li>
+</ul>
+<p><em>Code Example</em>:</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>  <span class="co"># income=10000, deductions=3000, taxes_paid=1000</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  m <span class="op">=</span> compute_taxes(<span class="dv">10000</span>, <span class="dv">3000</span>, <span class="dv">1000</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(m)</span></code></pre></div>
+<p><em>Example Output</em>:</p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>(<span class="dv">7000</span>, <span class="fl">700.0</span>, <span class="op">-</span><span class="dv">300</span>) </span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="co"># the tuple of taxable income, estimate taxes and taxes owed</span></span></code></pre></div>
+<p>You will find the following information important, so READ
+CAREFULLY:</p>
+<ul>
+<li><p><em>taxable income</em> is the <em>income</em> minus
+<em>deductions</em>; for example if <code>i</code> is income and
+<code>d</code> the deductions, taxable <code>ti = i - d</code></p></li>
+<li><p><em>estimated taxes</em> will be calculated using this function
+provided in the starter notebook – do NOT alter or change the
+function:</p>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> estimated_tax(ti):</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> ti <span class="op">&lt;</span> <span class="dv">100000</span>:</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> ti <span class="op">*</span> <span class="fl">0.10</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> ti <span class="op">&lt;</span> <span class="dv">200000</span>:</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> ti <span class="op">*</span> <span class="fl">0.15</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> ti <span class="op">&lt;</span> <span class="dv">300000</span>:</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> ti <span class="op">*</span> <span class="fl">0.20</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> ti <span class="op">&lt;</span> <span class="dv">400000</span>:</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> ti <span class="op">*</span> <span class="fl">0.25</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span>:</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> ti <span class="op">*</span> <span class="fl">.30</span></span></code></pre></div></li>
+</ul>
+<p><strong>§ Task:</strong> <strong>3.2 Write a function
+<code>assign_priority()</code> to put a customer in a priority
+group.</strong></p>
+<p>Your function will take a customer record from the
+<code>tax_returns.json</code> file and return a <code>1</code>,
+<code>2</code> or <code>3</code> using the following scheme:</p>
+<p>Priority <strong><code>3</code></strong>: if the amount of taxes owed
+is negative (a refund, since taxes were <em>overpaid</em>)</p>
+<p>Priority <strong><code>2</code></strong>: if the amount of taxes owed
+is positive, but the <em>estimated taxes</em> is within 5% of the
+<em>taxable income</em> (the client underpaid, but not
+significantly)</p>
+<p>Priority <strong><code>1</code></strong>: if the amount of
+<em>estimated taxes</em> is more than +/- 15% of the <em>taxable
+income</em> in either direction (positive or negative), then the client
+significantly under or overpaid thus more attention may be
+necessary.</p>
+<p><em>function</em> <strong>NAME</strong>:
+<code>assign_priority</code></p>
+<p><em>function</em> <strong>INPUT</strong>: - <em>r</em>: customer
+record</p>
+<p><em>function</em> <strong>OUTPUT</strong>:</p>
+<ul>
+<li>an integer containing the priority level</li>
+</ul>
+<p><em>Code Example</em>:</p>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>  r <span class="op">=</span> json.load(<span class="bu">open</span>(<span class="st">&quot;data/3_tax_clients.json&quot;</span>))[<span class="dv">0</span>] <span class="co"># first record sample only</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  p <span class="op">=</span> assign_priority(r)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(p)</span></code></pre></div>
+<p><em>Example Output</em>:</p>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> </span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="co"># priority level 1</span></span></code></pre></div>
+<p><strong>HINT:</strong> You will need to use
+<code>compute_taxes()</code> in <code>assign_priority()</code>.</p>
+<p><strong>§ Task:</strong> <strong>3.3 Assign a priority to ALL
+customers in <code>data/tax_clients.json</code>.</strong></p>
+<p>Load the file and run assign_priority to all customers.</p>
+<p>You <em>can</em> write a function, but you do not have to – you can
+run the code in a cell and emit the data.</p>
+<p>Your output, however, should look like this:</p>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">Customer</span> 1: P1</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">Customer</span> 2: P1</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="ex">Customer</span> 120: P3</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>  <span class="ex">...</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>  <span class="ex">Customer</span> 250: P0</span></code></pre></div>
+<p>To get the output to look like this, consider using format strings
+and taking some inspiration from the code below:</p>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>  customer_records <span class="op">=</span> json.load(<span class="bu">open</span>(<span class="st">&quot;data/3_tax_clients.json&quot;</span>))</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="cf">for</span> r <span class="kw">in</span> customer_records:</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    priority <span class="op">=</span> assign_priority(r)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Customer </span><span class="sc">{</span>r[<span class="st">&#39;cust_id&#39;</span>]<span class="sc">}</span><span class="ss">: P</span><span class="sc">{</span>priority<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<h3
+id="bonus-do-more-advanced-things-with-your-prior-functions-and-data-outputs.">(0%)
+BONUS: Do more advanced things with your prior functions and data
+outputs.</h3>
+<p>There are so many things we can now do with our name generators, tax
+prioritizers, etc. but there is only limited amounts of time.</p>
+<p>If you want to earn some more points, or just try something more
+challenging attempt one or more of the options below.</p>
+<p>You can earn several BONUS points <em>per</em> task.</p>
+<p><strong>§ Task:</strong> <strong>B.1 Write a function that generates
+a list of 50 unique random names.</strong></p>
+<p>Use your <code>name_gen()</code> function repeatedly to generate a
+list of 50 random names like:</p>
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>[<span class="st">&quot;Sam Grant&quot;</span>, <span class="st">&quot;Dahlia Underwood&quot;</span>, ... , <span class="st">&quot;Ade Opponbaah&quot;</span>]</span></code></pre></div>
+<ul>
+<li>You will earn more points if you check for uniqueness.</li>
+</ul>
+<p><strong>§ Task:</strong> <strong>B.2 Write a function that instead of
+using length, uses letters as input.</strong></p>
+<p>For example, <code>name_gen(names, 's', 'v')</code> will generate a
+name where the firstname starts with <code>s</code> and the lastname
+starts with <code>v</code>.</p>
+<ul>
+<li>You will earn the most points if you alter the way
+<code>make_names_dict()</code> works, so that it stores letters as keys
+instead of name length. Concretely, instead of numeric keys, you would
+have character keys:</li>
+</ul>
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">&quot;firstnames&quot;</span>:</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;a&quot;</span>: [<span class="st">&quot;angie&quot;</span>, <span class="st">&quot;anderson&quot;</span>, ...]}</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  ...</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>  <span class="co">&quot;lastnames&quot;</span>:</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>    ...</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;c&quot;</span>: [<span class="st">&quot;calhoun&quot;</span>, <span class="st">&quot;caldridge&quot;</span>, ...]</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    ...</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>You will find this greatly facilitates what is being asked in this
+bonus part.</p>
+<p><strong>§ Task:</strong> <strong>B.3 Create a dictionary which
+contains the customer numbers and the priority group they belong
+to.</strong></p>
+<p>This takes the tax work a bit further and to get points here, you
+will need to create a dictionary structure which looks like this:</p>
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1</span>: [<span class="dv">1</span>, <span class="dv">7</span>, <span class="dv">8</span>, <span class="dv">21</span>, ... , <span class="dv">123</span>]</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="dv">2</span>: [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">9</span>, ... , <span class="dv">211</span>]</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="dv">3</span>: [<span class="dv">77</span>, <span class="dv">121</span>, <span class="dv">122</span>, <span class="dv">179</span>, ..., <span class="dv">244</span>]}</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<ul>
+<li>You will earn points by using your <code>assign_priority()</code>
+function, along with adding the <code>cust_id</code> to the dictionary
+key (<code>1</code>, <code>2</code> or <code>3</code>) it belongs to
+based on the value of the function call.</li>
+</ul>
