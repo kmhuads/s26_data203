@@ -1,0 +1,238 @@
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Points <br/>Possible</th>
+<th style="text-align: center;">Due Date</th>
+<th style="text-align: center;">Time Commitment <br/>(estimated)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">Thursday, April 23 @ midnight</td>
+<td style="text-align: center;"><em>up to</em> 15 hours</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>GRADING:</strong> Grading will be aligned with the
+completeness of the objectives.</p></li>
+<li><p><strong>INDEPENDENT WORK:</strong> Copying, cheating, plagiarism
+and academic dishonesty <em>are not tolerated</em> by University or
+course policy. Please see the syllabus for the full departmental and
+University statement on the academic code of honor.</p></li>
+</ul>
+<h2 id="objectives">OBJECTIVES</h2>
+<ul>
+<li><p>Explore air quality public dataset in Python and Pandas.</p></li>
+<li><p>Build a distance table using Pandas.</p></li>
+<li><p>Build a map of reference and Purple Air stations using
+Folium.</p></li>
+</ul>
+<h2 id="what-to-turn-in">WHAT TO TURN IN</h2>
+<p>You will enjoy the highest benefits of the starter notebook if you
+clone the HW Github repository from your Jupyter Hub terminal with the
+command:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>  <span class="fu">git</span> clone https://github.com/kmhuads/s26_data203.git</span></code></pre></div>
+<p>This will ensure you have the most updated files and starter
+notebook.</p>
+<p>Once you have cloned the repository, you can edit the starter
+notebook with your solution code.</p>
+<p>When you are done with your work, it will be best to zip your
+<code>hw2</code> folder and all sub-folders with the terminal command
+(one level outside your notebook folder):</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>  <span class="fu">zip</span> <span class="at">-r</span> data203_hw3_maull.zip ./hw3</span></code></pre></div>
+<p>This will produce the file with all necessary supporting files
+(notebooks, data output, etc.) then download it from the Jupyter Hub to
+your local machine, then upload the <code>.zip</code> to Teams.</p>
+<p>If you are confused on how to do this, please ask, or visit one of
+the many tutorials on the basics of using zip in Linux.</p>
+<p>If you choose not to use the provided notebook, you will still need
+to turn in a <code>.ipynb</code> Jupyter Notebook and corresponding
+files according to the instructions in this homework.</p>
+<h2 id="assignment-tasks">ASSIGNMENT TASKS</h2>
+<h3 id="explore-air-quality-public-dataset-in-python-and-pandas.">(20%)
+Explore air quality public dataset in Python and Pandas.</h3>
+<p>Now that we have learned a number of new concepts in Pandas is it
+time to apply them.</p>
+<p>We are going to explore a few preliminaries before getting into our
+exploration and code solution.</p>
+<p>You might already be aware of the work going on in CADSA and
+elsewhere to study the community-level impacts of high temperatures in
+urban environments, as well as how poor air quality significantly <a
+href="https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm">impacts
+the health</a> of us all (but especially developing children and the
+elderly). You may also have some awareness that addressing these issues
+is as much a data problem as it is a political one – without appropriate
+data collection and analysis, very little can get accomplished at the
+policy level.</p>
+<p>One source of data are government sources, such as the EPA (<a
+href="https://epa.gov">https://epa.gov</a>) and as you may also be
+aware, data feeds for the EPA data products have been threatened in the
+recent past:</p>
+<ul>
+<li>Sellers, C., Dillon, L., Ohayon, J. L., Shapiro, N., Sullivan, M.,
+Amoss, C., Bocking, S., Brown, P., De la Rosa, V., Harrison, J., Johns,
+S., Kulik, K., Lave, R., Murphy, M., Piper, L., Richter, L., Wylie, S.,
+EDGI. (2017, June 19). The EPA Under Siege. Retrieved from <a
+href="https://envirodatagov.org/publication/the-epa-under-siege">https://envirodatagov.org/publication/the-epa-under-siege</a></li>
+<li><a
+href="https://nsarchive.gwu.edu/briefing-book/climate-change-transparency-project-foia/2025-02-06/disappearing-data-trump">Disappearing
+Data: Trump Administration Removing Climate Information from Government
+Websites</a></li>
+<li><a
+href="https://www.wbur.org/news/2025/08/14/trump-epa-data-removed-dei-environmental-justice-health-research">‘We’re
+willfully blinding ourselves’: Mass. researchers worry as federal
+environmental data disappears</a></li>
+</ul>
+<p>As a data scientist, we must be tirelessly curious and follow the
+data, wherever we can find it and wherever it may lead.</p>
+<p>Being familiar with many datasets, large or small, and becoming
+curious about the contents and questions that can be asked about
+<em>any</em> data is a skill that will cultivate as it serves your
+future growth.</p>
+<p>In the spirit of time, a large portion of the data acquisition has
+been done already, but the primary sources are still available for you
+to peruse. The two sources are OpenAQ and PurpleAir. <a
+href="https://openaq.org">OpenAQ</a> is a website that aggregates global
+air quality data from a variety of sources, but of interest to us are
+the data about the reference or “government” monitors, as we will
+shortly see. <a href="https://purpleair.com">PurpleAir</a> is a company
+that sells air quality monitors which can continuosly collect and
+display real-time data about <a
+href="https://www.epa.gov/AQNE/air-quality-index-and-real-time-air-quality-data">PM2.5
+air quality</a> parameters.</p>
+<p><em>You are encouraged to independently explore these data
+sources</em>.</p>
+<p>In this assignment we are going to use Pandas to work through
+location data using these two data sources.</p>
+<p><strong>§ Task:</strong> <strong>1.1 Install the OpenAQ Python module
+from <a href="https://pypi.org">PyPi.org</a>.</strong></p>
+<p>You will need to install the <code>openaq</code> module with:</p>
+<pre><code>!pip install openaq</code></pre>
+<p><strong>§ Task:</strong> <strong>1.2 Study the provided
+<code>fetch_openaq_data()</code> function in the provided starter
+notebook and describe what it does.</strong></p>
+<p>Write in your notebook what the function does. You will want to study
+the OpenAQ documentation here:</p>
+<ul>
+<li><a href="https://python.openaq.org/how-to-guides/">OpenAQ Python
+module documentation</a></li>
+</ul>
+<p><strong>§ Task:</strong> <strong>1.3 Execute the
+<code>fetch_openaq_data()</code> function, study the output JSON file
+and provide a brief description of its contents.</strong></p>
+<p>Your description should be understandable by one of your peers who
+<strong>has not taken this course</strong>. You must use plain
+descriptions without technical jargon, but you must provide enough
+information so that the description is useful.</p>
+<p>You <strong>MUST</strong> use the following parameters when invoking
+the function:</p>
+<ul>
+<li><code>lat = 25.986862</code></li>
+<li><code>lon = -80.208447</code></li>
+<li><code>outfile = "data.json"</code></li>
+</ul>
+<p>As a side note, the lat, lon given represents the location of an
+<strong>actual</strong> PurpleAir sensor in use by our partners in
+collaboration with Dr. Yeboah’s <a href="https://">Core Futures Lab</a>
+here at Howard.</p>
+<p>You <strong>MUST</strong> also sign up for an API key here and use
+the resulting key in your <code>key</code> parameter to the function
+call:</p>
+<ul>
+<li><a
+href="https://explore.openaq.org/register">https://explore.openaq.org/register</a></li>
+</ul>
+<h3 id="build-a-distance-table-using-pandas.">(60%) Build a distance
+table using Pandas.</h3>
+<p>We will extend the work we started in the first part and continue to
+explore the data, specifically, we now want to answer a very simple
+question:</p>
+<p><em>Given the lat,lon information for a Purple Air location, where
+are the closest EPA regulation monitors.</em></p>
+<p>This is a natural question, especially when trying to understand what
+coverage already exists and <em>whether that coverage is adequate to
+assess actual air quality impacts for the communities of
+interest.</em></p>
+<p><strong>§ Task:</strong> <strong>2.1 Build a table containing all the
+locations we want to compare. Explain the table,</strong></p>
+<p>You will need to study the provided function
+<code>build_location_table()</code>.</p>
+<ol type="1">
+<li><p>Finish the cell which loads the JSON file from the first part and
+execute the function <code>build_location_table()</code>.</p></li>
+<li><p>Describe the output of the function. Be very descriptive of what
+the function does and what the output actually is.</p></li>
+</ol>
+<p><strong>§ Task:</strong> <strong>2.2 Finish the function
+implementation of <code>build_distance_table()</code>.</strong></p>
+<p>Do not overthink this:</p>
+<ul>
+<li><p>Study the implementation stub and finish it.</p></li>
+<li><p>Your implementation will be a nested <code>for</code> loop that
+will loop over all the values twice and create a list of the distances
+using the <code>haversine</code> function.</p>
+<p>For example,</p>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>haversine(i,j,Unit.MILES)</span></code></pre></div>
+<p>computes the distance in miles between two (lat,lon) tuples
+<em>i</em> and <em>j</em>.</p>
+<p>You will simply run a <code>for</code> loop inside of a
+<code>for</code> loop which will append the computed distance to a list,
+then <code>pd.concat()</code> on <code>axis=1</code> to a new DataFrame
+consisting of the list. Remember if you have a list <code>lst</code>,
+<code>DataFrame(lst)</code> creates the new DataFrame that you will
+<code>concat</code>.</p></li>
+</ul>
+<p><strong>§ Task:</strong> <strong>2.3 Explain the output of
+<code>build_distance_table(build_location_table(pa_sensor, data)</code>.</strong></p>
+<p>Be descriptive but also use plain language that a non-expert would
+understand.</p>
+<p><strong>§ Task:</strong> <strong>2.4 Answer the questions below based
+on the <code>n_closest</code> code given in the notebook.</strong></p>
+<p><strong>NOTE:</strong> The first parameter to the function is the
+<em>index</em> of the location you want to build the table from. In the
+questions below, please use the value <code>0</code>, which is the index
+of the Purple Air monitor in question.</p>
+<p>Use the function to answer the questions:</p>
+<ol type="1">
+<li>Which is the closest reference monitor to the Purple Air
+monitor?</li>
+<li>Which is the farthest?</li>
+<li>How many reference monitors are within 2 miles of the Purple Air
+monitor?</li>
+<li>What is the mean and median distance of ALL reference monitors to
+the Purple Air monitor?</li>
+</ol>
+<p>For example,</p>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>n_closest(<span class="dv">0</span>, df, df_dist, n<span class="op">=-</span><span class="dv">1</span>, reference_only<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<p>returns <strong>all</strong> the reference station’s distances to
+index <code>0</code> or the Purple Air station. The output is a
+<em>tuple</em> with the index of the station and the lat, lon
+coordinates.</p>
+<h3
+id="build-a-map-of-reference-and-purple-air-stations-using-folium.">(20%)
+Build a map of reference and Purple Air stations using Folium.</h3>
+<p>We are almost there. What’s left is to leave the world of numbers and
+tables and create an interactive visualization.</p>
+<p>The solution is scaffolded so you will have to do very little to
+complete the code. The goal is to see the map!</p>
+<p><strong>§ Task:</strong> <strong>3.1 Install the Folium package from
+PyPi.</strong></p>
+<p>You will simply run:</p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install folium</span></code></pre></div>
+<p><strong>§ Task:</strong> <strong>3.2 Finish the code
+implementation.</strong></p>
+<p>Most of the code is completed for you in the starter notebook. You
+will just need to study the first bit of code that puts the marker on
+the map, then put it into the provided loop. There are hints in the
+starter notebook which should set you straight.</p>
+<p>Your map will look something like:</p>
+<p><img src="./map.png" /></p>
